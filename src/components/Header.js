@@ -6,8 +6,8 @@ const Header = () => {
         <div>
             <header>
 
-                <h1>Header</h1>
-                
+                <h1>EN1 Drummond</h1>
+
             </header>
         </div>
 

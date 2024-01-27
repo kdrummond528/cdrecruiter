@@ -15,6 +15,65 @@ header {
   top: 0;
   font-size: 16px;
   color: white;
+  padding: 20px;
+}
+
+/* beginning of nav css */
+nav {
+  position: absolute;
+  width: 100%;
+  margin-top: -45px;
+}
+
+nav ul li {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navlink {
+  list-style: none;
+  display: inline;
+}
+
+/* .navicon {
+  position: relative;
+  margin-right: 10px;
+  margin-top: -15px;
+}
+
+.navicon {
+  color: white;
+}
+
+.navicon:hover {
+  color: gray;
+} */
+
+.navlink:hover,
+.active {
+  color: gray;
+  cursor: pointer;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e71335;
+}
+
+/* ending of nav css */
+
+.home-p {
+  padding: 40px;
+}
+
+.about-p {
+  padding: 40px;
+}
+
+.contact-p {
+  padding: 40px;
+}
+
+.process-p {
+  padding: 40px;
 }
 
 footer {

@@ -1,32 +1,31 @@
 import React from 'react';
 // import { FaLinkedinIn } from 'react-icons/fa';
 
-const Nav = ({ showHome, showAbout, showContact, active }) => {
+const Nav = ({ showHome, showAbout, showContact, showProcess, active }) => {
     return (
         <div>
 
-            <nav align='right'>
+            <nav>
                 <ul>
                     <li className='navlink'>
                         <p onClick={showHome} className={active === 0 ? 'navlink active' : 'navlink'} >
-                            home</p>
+                            Home</p>
                     </li>
 
                     <li className='navlink'>
                         <p onClick={showAbout} className={active === 1 ? 'navlink active' : 'navlink'} >
-                            about</p>
+                            About</p>
                     </li>
 
                     <li className='navlink'>
                         <p onClick={showContact} className={active === 2 ? 'navlink active' : 'navlink'}>
-                            contact</p>
+                            Contact</p>
                     </li>
 
-                    {/* <li className='navlink'>
-                        <a href="https://www.linkedin.com/in/karinadrummond" target={'_blank'} rel="noreferrer" title="Connect with me on LinkedIn" className='naviconlink'>
-                            <FaLinkedinIn className='navicon' size={"2em"} />
-                        </a>
-                    </li> */}
+                    <li className='navlink'>
+                        <p onClick={showProcess} className={active === 2 ? 'navlink active' : 'navlink'}>
+                            Process of Enlisting</p>
+                    </li>
 
                 </ul>
             </nav>

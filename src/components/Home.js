@@ -4,8 +4,10 @@ const Home = () => {
     return (
         <div>
 
-            <p>
-                Chris recruiter site
+            <p className='home-p'>
+                This is the home page.<br />
+                <br />
+                Enter some intro content here.
             </p>
 
         </div>

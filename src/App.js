@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
+import Process from './components/Process';
 import BackToTopBtn from './components/BackToTopBtn';
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
         showHome={() => setPageIndex(0)}
         showAbout={() => setPageIndex(1)}
         showContact={() => setPageIndex(2)}
+        showProcess={() => setPageIndex(3)}
+
         active={pageIndex}
       />
 
@@ -28,6 +31,8 @@ function App() {
         <About />
       ) : pageIndex === 2 ? (
         <Contact />
+      ) : pageIndex === 3 ? (
+        <Process />
       ) : (
         <Home />
       )}
