@@ -1,7 +1,6 @@
 import React from 'react';
-// import { FaLinkedinIn } from 'react-icons/fa';
 
-const Nav = ({ showHome, showAbout, showContact, showProcess, active }) => {
+const Nav = ({ showHome, showAbout, showBenefits, showContact, showProcess, showResources, showBlog, active }) => {
     return (
         <div>
 
@@ -18,14 +17,30 @@ const Nav = ({ showHome, showAbout, showContact, showProcess, active }) => {
                     </li>
 
                     <li className='navlink'>
-                        <p onClick={showContact} className={active === 2 ? 'navlink active' : 'navlink'}>
-                            Contact</p>
+                        <p onClick={showBenefits} className={active === 2 ? 'navlink active' : 'navlink'}>
+                            Benefits</p>
                     </li>
 
                     <li className='navlink'>
-                        <p onClick={showProcess} className={active === 2 ? 'navlink active' : 'navlink'}>
+                        <p onClick={showProcess} className={active === 3 ? 'navlink active' : 'navlink'}>
                             Process of Enlisting</p>
                     </li>
+
+                    <li className='navlink'>
+                        <p onClick={showResources} className={active === 4 ? 'navlink active' : 'navlink'}>
+                            Resources</p>
+                    </li>
+
+                    <li className='navlink'>
+                        <p onClick={showBlog} className={active === 5 ? 'navlink active' : 'navlink'}>
+                            Blog</p>
+                    </li>
+
+                    <li className='navlink'>
+                        <p onClick={showContact} className={active === 6 ? 'navlink active' : 'navlink'}>
+                            Contact</p>
+                    </li>
+
 
                 </ul>
             </nav>

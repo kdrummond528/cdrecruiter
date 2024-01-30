@@ -1,9 +1,10 @@
 import React from 'react'
+import SurveyComponent from './SurveyComponent'
 // import { TfiEmail } from 'react-icons/tfi';
 
 const Contact = () => {
   return (
-    <div>
+    <div className='contactpg'>
 
       <p className='contact-p'>
         Ways to contact me
@@ -27,11 +28,22 @@ const Contact = () => {
 
 
       <p>
-        Set up a visit with me.<br /><br />
+        Set up a visit with me.<br />
+        <b>Set up a Calendly account</b>
+        <br /><br />
         U.S. Navy Talent Acquisition Station Lynnwood<br />
         18415 33rd Ave W. Ste. D<br />
         Lynnwood, WA 98037
       </p>
+
+      <br /><br />
+
+      <p>
+        Complete the Interest Survey and I will contact you with more information.
+      </p>
+
+      <SurveyComponent />
+
 
     </div>
   )

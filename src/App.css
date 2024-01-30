@@ -60,19 +60,8 @@ nav ul li {
 
 /* ending of nav css */
 
-.home-p {
-  padding: 40px;
-}
-
-.about-p {
-  padding: 40px;
-}
-
-.contact-p {
-  padding: 40px;
-}
-
-.process-p {
+.home-p, .about-p, .contactpg, .process-p, .benefits-p, .resources-p, .blog-p {
+  color: black;
   padding: 40px;
 }
 
