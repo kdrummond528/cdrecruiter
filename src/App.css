@@ -6,7 +6,7 @@
 }
 
 header {
-  background-color: #282c34;
+  background-color: #022a3a;
   min-height: 10vh;
   /* display: flex; */
   /* flex-direction: column; */
@@ -14,8 +14,9 @@ header {
   /* justify-content: center; */
   top: 0;
   font-size: 16px;
-  color: white;
+  color: #e8b00f;
   padding: 20px;
+  
 }
 
 /* beginning of nav css */
@@ -28,7 +29,7 @@ nav {
 nav ul li {
   margin: 10px;
   text-decoration: none;
-  color: white;
+  color: #c6ccd0;
 }
 
 .navlink {
@@ -52,10 +53,9 @@ nav ul li {
 
 .navlink:hover,
 .active {
-  color: gray;
   cursor: pointer;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #e71335;
+  -webkit-text-stroke-color: #e8b00f;
 }
 
 /* ending of nav css */
@@ -67,11 +67,11 @@ nav ul li {
 
 footer {
   font-size: 16px;
-  color: white;
+  color: #c6ccd0;
   /* min-height: 10vh; */
   padding: 10px;
   position: fixed;
   bottom: 0;
-  background-color: #282c34;
+  background-color: #022a3a;
   width: 100%;
 }
