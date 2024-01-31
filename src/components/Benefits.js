@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Collapsible from 'react-collapsible';
+import { IoIosArrowDropdownCircle } from "react-icons/io";
 
 const Benefits = () => {
     return (
@@ -8,16 +10,38 @@ const Benefits = () => {
 
             <p className='benefits-p'>
                 Benefits information goes here...
-                <br />
-                <br />
 
-                <li>Tricare for self and family, Medical/Dental, etc.</li>
-                <li>Education (TA, GI, JST, Loan Repayment)</li>
-                <li>VA loan for a home</li>
-                <li>OJT, Navy Cool, Certs through Dept. of Labor</li>
-                <li>Any other bonuses...</li>
+                <Collapsible trigger="Medical" className='collapsible'>
+                    <p>
+                        Enter medical benefits here...
+                        <br />
+                        Tricare for self and family, Medical/Dental, etc.
+                    </p>
+                </Collapsible>
 
-                
+                <Collapsible trigger="Education" className='collapsible'>
+                    <p>
+                        Enter education benefits here...
+                        <br />
+                        TA, GI, JST, Loan Repayment
+                    </p>
+                </Collapsible>
+
+                <Collapsible trigger="Housing" className='collapsible'>
+                    <p>
+                        Enter housing benefits here...
+                        <br />
+                        VA loan, BAH, etc...
+                    </p>
+                </Collapsible>
+
+                <Collapsible trigger="OJT" className='collapsible'>
+                    <p>
+                        Enter OJT benefits here...
+                        <br />
+                        OJT, Navy Cool, Certs through Dept. of Labor, etc...
+                    </p>
+                </Collapsible>
 
             </p>
         </div>

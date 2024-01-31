@@ -109,6 +109,17 @@ nav ul li {
   padding-right: 50px;
 }
 
+.collapsible {
+  /* background-color: #022a3a; */
+  padding-top: 20px;
+}
+
+.Collapsible__trigger {
+  font-family: "Light";
+  font-size: 20px;
+  /* background-color: #022a3a; */
+}
+
 .icon {
   padding-left: 10px;
   padding-right: 10px;
