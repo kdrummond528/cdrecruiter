@@ -6,7 +6,11 @@ const Footer = () => {
         <div>
 
             <footer>
-                &copy; 2024 Christopher Drummond
+
+                <p>
+                    &copy; 2024 Christopher Drummond
+                </p>
+
             </footer>
 
         </div>

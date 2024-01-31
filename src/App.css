@@ -5,6 +5,24 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Heavy";
+  src: local("Liberator-Heavy"),
+    url("./components/Fonts/Liberator/Liberator-Heavy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Light";
+  src: local("Liberator-Light"),
+    url("./components/Fonts/Liberator/Liberator-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: local("Liberator-Medium"),
+    url("./components/Fonts/Liberator/Liberator-Medium.otf") format("opentype");
+}
+
 header {
   background-color: #022a3a;
   min-height: 10vh;
@@ -16,14 +34,24 @@ header {
   font-size: 16px;
   color: #e8b00f;
   padding: 20px;
-  
+}
+
+header h1 {
+  font-family: "Heavy";
+  font-size: 40px;
+}
+
+header h2 {
+  font-family: "Light";
+  font-size: 20px;
+  padding: 5px;
 }
 
 /* beginning of nav css */
 nav {
   position: absolute;
   width: 100%;
-  margin-top: -45px;
+  margin-top: -30px;
 }
 
 nav ul li {
@@ -35,6 +63,7 @@ nav ul li {
 .navlink {
   list-style: none;
   display: inline;
+  font-family: "Light";
 }
 
 /* .navicon {
@@ -56,13 +85,41 @@ nav ul li {
   cursor: pointer;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #e8b00f;
+  font-family: "Light";
 }
 
 /* ending of nav css */
 
-.home-p, .about-p, .contactpg, .process-p, .benefits-p, .resources-p, .blog-p {
+.pgheader {
+  font-family: "Light";
+  padding-top: 40px;
+}
+
+.home-p,
+.about-p,
+.contact-p,
+.process-p,
+.benefits-p,
+.resources-p,
+.blog-p {
   color: black;
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icon {
+  color: #022a3a;
+}
+
+.icon:hover {
+  color: #0076a9;
 }
 
 footer {
@@ -74,4 +131,8 @@ footer {
   bottom: 0;
   background-color: #022a3a;
   width: 100%;
+}
+
+footer p {
+  font-family: "Light";
 }

@@ -6,8 +6,9 @@ const Header = () => {
         <div>
             <header>
 
-                <h1>EN1 Drummond</h1>
-
+                <h1>Petty Officer Drummond</h1>
+                <h2>United States Navy Talent Scout</h2>
+                
             </header>
         </div>
 

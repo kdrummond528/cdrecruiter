@@ -4,6 +4,8 @@ const About = () => {
     return (
         <div>
 
+            <h2 className='pgheader'>About Me</h2>
+
             <p className='about-p'>
                 My name is Christopher Drummond, and I am a local Acquisition Talent Scout for the United States Navy currently located in Lynnwood, Washington.
                 <br />

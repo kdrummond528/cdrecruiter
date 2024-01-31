@@ -4,17 +4,19 @@ const Process = () => {
     return (
         <div>
 
+            <h2 className='pgheader'>Process of Enlisting</h2>
+
             <p className='process-p'>
                 Process of enlisting goes here...
-                <br/><br/>
+                <br /><br />
                 <li>Screening</li>
                 <li>Practice ASVAB</li>
                 <li>ASVAB</li>
                 <li>Medical</li>
                 <li>Background check</li>
                 <li>Swear in</li>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 After you're sworn in...
                 <li>DEP</li>
                 <li>Monthly PRT</li>

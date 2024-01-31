@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import "./components/Fonts/Liberator/Liberator-Heavy.otf";
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
