@@ -12,7 +12,7 @@ const Blog = () => {
                 <br />
 
                 <li>Post scenarios with fake prospects and discuss the options they have</li>
-                <li>Talk about any new instructions (girls hair length/styles, paternity leave, etc.)</li>
+                <li>Talk about any new instructions (not needing a high school diploma, tattoos, paternity leave, etc.)</li>
                 <li>Talk about different programs and benefits in more depth</li>
 
             </p>
