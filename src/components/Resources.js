@@ -4,7 +4,7 @@ const Resources = () => {
     return (
         <div>
 
-            <h2 className='pgheader'>Resources</h2>
+            <p className='pgheader'>Resources</p>
 
             <p className='resources-p'>
                 Resources info goes here...

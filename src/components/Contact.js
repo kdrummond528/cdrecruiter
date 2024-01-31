@@ -3,38 +3,49 @@ import SurveyComponent from './SurveyComponent'
 import { MdOutlineMail } from 'react-icons/md';
 import { TbPhone } from "react-icons/tb";
 import { TbMessageCircle2 } from "react-icons/tb";
+import { MdOutlineCalendarMonth } from "react-icons/md";
 
 const Contact = () => {
   return (
     <div>
 
-      <h2 className='pgheader'>Contact Me</h2>
+      <p className='pgheader'>Contact Me</p>
 
       <p className='contact-p'>
 
-        <a className='email' href="mailto: christopher.e.drummond2.mil@us.navy.mil"
+        <a href="mailto: christopher.e.drummond2.mil@us.navy.mil"
           title='Email me.'>
           <MdOutlineMail className='icon' size={'2rem'} />
         </a>
 
-        <a className='call' href="tel:425-977-9361"
+        <a href="tel:425-977-9361"
           title='Call me.'>
           <TbPhone className='icon' size={'2rem'} />
         </a>
 
-        <a className='call' href="sms:425-977-9361"
+        <a href="sms:425-977-9361"
           title='Text me.'>
           <TbMessageCircle2 className='icon' size={'2rem'} />
         </a>
 
+        <a href="https://calendly.com/chrisdrummond/introduction"
+          title='Book an appointment with me.'>
+          <MdOutlineCalendarMonth className='icon' size={'2rem'} />
+        </a>
+
         <br /><br />
 
-        Set up a visit with me.<br />
-        <b>Set up a Calendly account</b>
-        <br /><br />
+        <p className='name'>Christopher Drummond</p>
+        <p className='title'>Navy Talent Acquisition Scout</p>
+
         U.S. Navy Talent Acquisition Station Lynnwood<br />
         18415 33rd Ave W. Ste. D<br />
         Lynnwood, WA 98037
+
+        <br /><br />
+
+        Set up an introductory phone call, zoom meeting, or in person meeting with me via <a title='Book an appointment.' href="https://calendly.com/chrisdrummond/introduction">Calendly</a>.
+        <br /><br />
 
       </p>
 

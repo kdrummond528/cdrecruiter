@@ -6,7 +6,7 @@ const Benefits = () => {
     return (
         <div>
 
-            <h2 className='pgheader'>Benefits</h2>
+            <p className='pgheader'>Benefits</p>
 
             <p className='benefits-p'>
                 Benefits information goes here...

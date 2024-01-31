@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div>
 
-            <h2 className='pgheader'>Blog</h2>
+            <p className='pgheader'>Blog</p>
 
             <p className='blog-p'>
                 Future blog goes here...

@@ -4,7 +4,7 @@ const Process = () => {
     return (
         <div>
 
-            <h2 className='pgheader'>Process of Enlisting</h2>
+            <p className='pgheader'>Process of Enlisting</p>
 
             <p className='process-p'>
                 Process of enlisting goes here...

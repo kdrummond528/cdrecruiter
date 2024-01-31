@@ -93,6 +93,7 @@ nav ul li {
 .pgheader {
   font-family: "Light";
   padding-top: 40px;
+  font-size: 32px;
 }
 
 .home-p,
@@ -107,6 +108,18 @@ nav ul li {
   padding-bottom: 40px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.name {
+  font-family: "Medium";
+  font-size: 24px;
+  padding: 3px;
+}
+
+.title {
+  font-family: "Light";
+  font-size: 20px;
+  padding: 3px;
 }
 
 .collapsible {
