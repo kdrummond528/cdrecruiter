@@ -110,14 +110,15 @@ nav ul li {
 }
 
 .collapsible {
-  /* background-color: #022a3a; */
-  padding-top: 20px;
+  background-color: #c6ccd0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 1px #022a3a;
 }
 
 .Collapsible__trigger {
   font-family: "Light";
   font-size: 20px;
-  /* background-color: #022a3a; */
 }
 
 .icon {

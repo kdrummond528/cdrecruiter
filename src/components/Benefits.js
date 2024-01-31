@@ -1,6 +1,6 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import { IoIosArrowDropdownCircle } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Benefits = () => {
     return (
@@ -11,7 +11,7 @@ const Benefits = () => {
             <p className='benefits-p'>
                 Benefits information goes here...
 
-                <Collapsible trigger="Medical" className='collapsible'>
+                <Collapsible trigger={["Medical", <IoIosArrowDown />]} className='collapsible'>
                     <p>
                         Enter medical benefits here...
                         <br />
@@ -19,7 +19,7 @@ const Benefits = () => {
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger="Education" className='collapsible'>
+                <Collapsible trigger={["Education", <IoIosArrowDown />]} className='collapsible'>
                     <p>
                         Enter education benefits here...
                         <br />
@@ -27,7 +27,7 @@ const Benefits = () => {
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger="Housing" className='collapsible'>
+                <Collapsible trigger={["Housing", <IoIosArrowDown />]} className='collapsible'>
                     <p>
                         Enter housing benefits here...
                         <br />
@@ -35,7 +35,7 @@ const Benefits = () => {
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger="OJT" className='collapsible'>
+                <Collapsible trigger={["OJT", <IoIosArrowDown />]} className='collapsible'>
                     <p>
                         Enter OJT benefits here...
                         <br />
