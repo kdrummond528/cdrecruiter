@@ -1,98 +1,85 @@
 export const json = {
-    "title": "Interest Survey",
-    "description": "Please fill out this form with your information, and I will contact you as soon as possible.",
+    "title": "Navy Interest Survey",
+    "description": "Please fill out this survey and I will contact you with more information.",
+    "logoPosition": "right",
     "pages": [
         {
             "name": "page1",
             "elements": [
                 {
                     "type": "text",
-                    "name": "textlengthvalidator",
-                    "title": "First & last name",
-                    "isRequired": true,
-                    "validators": [
-                        {
-                            "type": "text",
-                            "minLength": 10,
-                            "maxLength": 280
-                        }
-                    ]
-                },
-                {
-                    "type": "text",
-                    "name": "numericvalidator",
-                    "title": "Phone number",
-                    "isRequired": true,
-                    "validators": [
-                        {
-                            "type": "numeric",
-                            "text": "Value must be within the range of 0 to 100",
-                            "minValue": 0,
-                            "maxValue": 100
-                        }
-                    ],
-                    "maxLength": 0
-                },
-                {
-                    "type": "text",
-                    "name": "emailvalidator",
-                    "title": "E-mail address",
-                    "isRequired": true,
-                    "validators": [
-                        {
-                            "type": "email"
-                        }
-                    ]
-                },
-                {
-                    "type": "boolean",
                     "name": "question1",
-                    "title": "Have you completed High School/GED?",
+                    "title": "First and last name",
                     "isRequired": true
                 },
                 {
                     "type": "text",
                     "name": "question2",
-                    "title": "What is your high school graduation year/anticipated graduation year?",
+                    "title": "Phone number",
+                    "isRequired": true,
+                    "inputType": "number"
+                },
+                {
+                    "type": "text",
+                    "name": "Email address",
+                    "isRequired": true,
+                    "validators": [
+                        {
+                            "type": "email"
+                        }
+                    ],
+                    "inputType": "email"
+                },
+                {
+                    "type": "boolean",
+                    "name": "question4",
+                    "title": "Have you completed high school/GED program?",
                     "isRequired": true
                 },
                 {
+                    "type": "text",
+                    "name": "question3",
+                    "visibleIf": "{question4} = false",
+                    "title": "What is your anticipated high school graduation year?",
+                    "isRequired": true,
+                    "requiredIf": "{question4} = false"
+                },
+                {
                     "type": "radiogroup",
-                    "name": "question4",
-                    "title": "What is you highest level of education?",
+                    "name": "question6",
+                    "title": "What is your highest level of education?",
                     "isRequired": true,
                     "choices": [
                         {
-                            "value": "Item 5",
+                            "value": "Item 1",
                             "text": "Some high school"
                         },
                         {
-                            "value": "Item 1",
-                            "text": "High school diploma/GED"
-                        },
-                        {
-                            "value": "Item 6",
-                            "text": "Some college"
-                        },
-                        {
                             "value": "Item 2",
-                            "text": "Associate's Degree"
+                            "text": "High school diploma or GED"
                         },
                         {
                             "value": "Item 3",
-                            "text": "Bachelor's Degree"
+                            "text": "Some college"
                         },
                         {
                             "value": "Item 4",
-                            "text": "Master's Degree or higher"
+                            "text": "Associate's"
+                        },
+                        {
+                            "value": "Item 5",
+                            "text": "Bachelor's"
+                        },
+                        {
+                            "value": "Item 6",
+                            "text": "Master's or higher"
                         }
                     ]
                 },
                 {
                     "type": "checkbox",
-                    "name": "question3",
+                    "name": "question5",
                     "title": "What are your interests?",
-                    "description": "Select at least one.",
                     "isRequired": true,
                     "choices": [
                         {
@@ -101,7 +88,7 @@ export const json = {
                         },
                         {
                             "value": "Item 2",
-                            "text": "Medical"
+                            "text": "Healthcare"
                         },
                         {
                             "value": "Item 3",
@@ -116,54 +103,53 @@ export const json = {
                             "text": "Math/Science"
                         },
                         {
-                            "value": "Item 7",
+                            "value": "Item 6",
                             "text": "Travel"
                         },
                         {
-                            "value": "Item 8",
-                            "text": "Physical fitness"
+                            "value": "Item 7",
+                            "text": "Physical Fitness"
                         },
                         {
-                            "value": "Item 6",
+                            "value": "Item 8",
                             "text": "Supporting others"
                         }
                     ],
-                    "showOtherItem": true,
-                    "showNoneItem": true
+                    "showOtherItem": true
                 },
                 {
-                    "type": "tagbox",
-                    "name": "question6",
-                    "title": "What is your preffered method of communication?",
-                    "description": "Select at least one, or multiple.",
+                    "type": "checkbox",
+                    "name": "question7",
+                    "title": "What is your preferred method of communication?",
                     "isRequired": true,
                     "choices": [
                         {
                             "value": "Item 1",
-                            "text": "Text"
+                            "text": "Phone call"
                         },
                         {
                             "value": "Item 2",
-                            "text": "Phone call"
+                            "text": "Text"
                         },
                         {
                             "value": "Item 3",
                             "text": "Email"
                         }
-                    ],
-                    "maxSelectedChoices": 3,
-                    "minSelectedChoices": 1
+                    ]
+                },
+                {
+                    "type": "text",
+                    "name": "question9",
+                    "title": "Additional comments."
                 },
                 {
                     "type": "boolean",
-                    "name": "question5",
-                    "title": "Do you agree to be contacted by a Navy Talent Scout for more information regarding joining the Navy?",
+                    "name": "question8",
+                    "title": "Do you agree to be contacted by a Navy Talent Scout for more information about joining the Navy?",
                     "isRequired": true
                 }
             ]
         }
     ],
-    "showQuestionNumbers": "off",
-    "checkErrorsMode": "onValueChanged",
     "headerView": "advanced"
 }

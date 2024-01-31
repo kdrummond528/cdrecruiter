@@ -1,7 +1,8 @@
 import React from 'react'
 import SurveyComponent from './SurveyComponent'
-import { TfiEmail } from 'react-icons/tfi';
-import { FaPhoneAlt } from "react-icons/fa";
+import { MdOutlineMail } from 'react-icons/md';
+import { TbPhone } from "react-icons/tb";
+import { TbMessageCircle2 } from "react-icons/tb";
 
 const Contact = () => {
   return (
@@ -12,13 +13,18 @@ const Contact = () => {
       <p className='contact-p'>
 
         <a className='email' href="mailto: christopher.e.drummond2.mil@us.navy.mil"
-          title='Send me an email.'>
-          <TfiEmail className='icon' size={'2rem'} />
+          title='Email me.'>
+          <MdOutlineMail className='icon' size={'2rem'} />
         </a>
 
         <a className='call' href="tel:425-977-9361"
-          title='Call or text me.'>
-          <FaPhoneAlt className='icon' size={'1.7rem'} />
+          title='Call me.'>
+          <TbPhone className='icon' size={'2rem'} />
+        </a>
+
+        <a className='call' href="sms:425-977-9361"
+          title='Text me.'>
+          <TbMessageCircle2 className='icon' size={'2rem'} />
         </a>
 
         <br /><br />
