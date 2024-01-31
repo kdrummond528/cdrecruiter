@@ -39,8 +39,8 @@ const Contact = () => {
         <p className='title'>Navy Talent Acquisition Scout</p>
 
         U.S. Navy Talent Acquisition Station Lynnwood<br />
-        18415 33rd Ave W. Ste. D<br />
-        Lynnwood, WA 98037
+        <a href="http://maps.google.com/?q=18415 33rd Ave W. Ste. D, Lynnwood, WA 98037">18415 33rd Ave W. Ste. D<br />
+          Lynnwood, WA 98037</a>
 
         <br /><br />
 
