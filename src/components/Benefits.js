@@ -9,7 +9,6 @@ const Benefits = () => {
             <p className='pgheader'>Benefits</p>
 
             <p className='benefits-p'>
-                Benefits information goes here...
 
                 <Collapsible trigger={["Medical", <IoIosArrowDown />]} className='collapsible'>
                     <p>

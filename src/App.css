@@ -110,7 +110,9 @@ nav ul li {
   padding-right: 50px;
 }
 
-.process-body {
+.process-body,
+.about-body,
+.resources-body {
   background-color: #c6ccd0;
   padding: 15px;
   border: 1px solid #022a3a;
