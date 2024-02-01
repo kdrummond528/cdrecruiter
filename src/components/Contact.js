@@ -28,7 +28,7 @@ const Contact = () => {
           <TbMessageCircle2 className='icon' size={'2rem'} />
         </a>
 
-        <a href="https://calendly.com/chrisdrummond/introduction"
+        <a href="https://calendly.com/chrisdrummond/"
           title='Book an appointment with me.'>
           <MdOutlineCalendarMonth className='icon' size={'2rem'} />
         </a>
@@ -44,7 +44,7 @@ const Contact = () => {
 
         <br /><br />
 
-        Set up an introductory phone call, zoom meeting, or in person meeting with me via <a title='Book an appointment.' href="https://calendly.com/chrisdrummond/introduction">Calendly</a>.
+        Set up an introductory phone call, zoom meeting, or in person meeting with me via <a title='Book an appointment.' href="https://calendly.com/chrisdrummond/">Calendly</a>.
         <br /><br />
 
       </p>

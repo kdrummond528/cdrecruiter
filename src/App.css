@@ -110,6 +110,20 @@ nav ul li {
   padding-right: 50px;
 }
 
+.process-body {
+  background-color: #c6ccd0;
+  padding: 15px;
+  border: 1px solid #022a3a;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.body-label {
+  font-family: "Light";
+  font-size: 20px;
+  color: #022a3a;
+}
+
 .name {
   font-family: "Medium";
   font-size: 24px;
