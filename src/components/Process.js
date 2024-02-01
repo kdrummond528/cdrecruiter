@@ -7,29 +7,21 @@ const Process = () => {
             <p className='pgheader'>Process of Enlisting</p>
 
             <p className='process-p'>
-                Process of enlisting goes here...
-                <br /><br />
-                <li>Screening</li>
-                <li>Practice ASVAB</li>
-                <li>ASVAB</li>
-                <li>Medical</li>
-                <li>Background check</li>
-                <li>Swear in</li>
 
                 <p className='process-body'>
-                    At first contact, we will discuss your background and interests, and then the opportunities and benefits that would be available to you. Following this appointment we will schedule you for a practice ASVAB. The next step would be to gather medical and personal data and schedule you for the ASVAB and medical at MEPS (Military Entrance Processing).
+                    <p className='body-label'>The First Steps</p>
+                    After discussing your background, interests, as well as the opportunities and benefits that would be available to you, the next step would be to take a practice Armed Services Vocational Aptitude Battery (<i>ASVAB</i>).  Following this, we would conduct a screening interview collecting more background and personal information, and then schedule you for the ASVAB and medical evaluation at the nearest <a href="https://www.google.com/maps/place/Seattle+MEPS/@47.5583621,-122.342933,17z/data=!3m1!4b1!4m6!3m5!1s0x549041b7a4bae249:0x8e4ed5e3d10e6dc9!8m2!3d47.5583621!4d-122.3403581!16s%2Fg%2F11b75l4rgc?entry=ttu">Military Entrance Processing Station</a> (<i>MEPS</i>) located in Seattle, Washington.
                 </p>
 
                 <p className='process-body'>
-                    <p className='body-label'>What to expect for your MEPS visit:</p><br />
-                    Depending on your location and transportation, we will place you in a hotel so you can arrive at MEPS at 6am. You will first take the ASVAB, which can take anywhere from 2-6 hours. If you receive a score higher than 10, you will proceed with Medical. AND I DONT KNOW HOW THE ENTIRETY OF THIS PROCESS GOES.
-                </p>
+                    <p className='body-label'>What to expect at MEPS</p>
+                    When you arrive at MEPS the first step is the aptitude testing. The ASVAB, which takes on average 3.5 hours to complete. The second step will consist of a medical and physical evaluation. After completing all necessary evaluations, the third step will be speaking with a counselor for job selection. The fourth step consists of an in-depth background screening. The final step is the oath of enlistment.<br /><br />
 
-                <p className='process-body'>
-                    <b>After you're sworn in:</b>
-                    <li>DEP</li>
-                    <li>Monthly PRT</li>
-                    <li>Studying for bootcamp</li>
+
+
+                    For more information regarding the MEPS process, view this handout.
+                    <br />
+                    Additionally, you may also view this video detailing the process, <a href='https://www.mepcom.army.mil/Home/Applicants-and-Parents/Going-to-the-MEPS/'>A Day at the MEPS</a>.
                 </p>
 
             </p>
