@@ -13,7 +13,7 @@ const Home = () => {
                     Enter some intro content here.
                 </p>
 
-            </div>
+            </div> 
         </div>
     )
 }

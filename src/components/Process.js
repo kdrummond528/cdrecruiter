@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Collapsible from 'react-collapsible';
+import { IoIosArrowDown } from "react-icons/io";
 
 const Process = () => {
     return (
@@ -23,6 +25,19 @@ const Process = () => {
                     <br />
                     Additionally, you may also view this video detailing the process, <a href='https://www.mepcom.army.mil/Home/Applicants-and-Parents/Going-to-the-MEPS/'>A Day at the MEPS</a>.
                 </p>
+
+                {/* <p className='body'>
+                    <p className='body-label'>Enlisted Jobs</p>
+                    Enter enlisted job rates and info...
+                </p> */}
+
+                <Collapsible trigger={["Enlisted Jobs", <IoIosArrowDown class="arrow" />]} className='collapsible'>
+                    <p>
+                        Enter enlisted job rates and info...
+                        Download the <a target='_blank' href='https://www.cool.osd.mil/usn/resources_and_links/index.html?MobileApp'>Navy COOL Mobile Application</a> to view more information on enlisted job rates, <a target='_blank' href='https://www.cool.osd.mil/usn/resources_and_links/index.html?RatingInfoCards'>here's how</a>.
+
+                    </p>
+                </Collapsible>
 
             </div>
 

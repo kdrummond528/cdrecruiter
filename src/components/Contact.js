@@ -4,7 +4,7 @@ import { TbPhone } from "react-icons/tb";
 import { TbMessageCircle2 } from "react-icons/tb";
 import { MdOutlineCalendarMonth } from "react-icons/md";
 
-const Contact = () => {
+const Contact = ({showSurvey}) => {
   return (
     <div>
 
@@ -45,17 +45,13 @@ const Contact = () => {
           <br />
 
           Set up an introductory phone call, zoom meeting, or in person meeting with me via <a title='Book an appointment.' target="_blank" href="https://calendly.com/chrisdrummond">Calendly</a>.
-          
-          {/* <br /><br />
 
-          Or fill out an <a href='/Survey'>Interest Survey</a> and I will contact you within 1-2 business days. */}
+          <br /><br />
+
+          Fill out an <a href=''>Interest Survey</a> and I will contact you within 1-2 business days.
 
 
         </p>
-      </div>
-
-      <div className='survey'>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9lBeS5ZCcyeE-EQRDMe0ye4N2tbMPFgtBbNg-roLwlIwXEw/viewform?embedded=true" width="640" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
 
     </div>

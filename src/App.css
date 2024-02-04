@@ -98,6 +98,7 @@ nav ul li {
   padding-left: 50px;
   padding-right: 50px;
   line-height: 1.5em;
+  margin-bottom: 35px;
 }
 
 .body {
@@ -106,6 +107,7 @@ nav ul li {
   border: 1px solid #022a3a;
   border-radius: 10px;
   margin: 10px;
+  margin-bottom: 25px;
 }
 
 .body-label {
@@ -127,18 +129,25 @@ nav ul li {
   padding: 3px;
 }
 
-.Collapsible__contentInner {
-  padding: 10px;
-}
-
 .Collapsible__trigger {
   background-color: #c6ccd0;
   font-family: "Light";
   font-size: 20px;
+  color: #022a3a;
   padding-top: 10px;
   padding-bottom: 10px;
   border: solid 1px #022a3a;
+  /* border-left: solid 1px #022a3a;
+  border-right: solid 1px #022a3a; */
+  border-radius: 5px;
   display: block
+}
+
+.Collapsible__contentInner {
+  padding: 10px;
+  border-radius: 5px;
+  /* border-left: 1px solid #e8b00f;
+  border-right: 1px solid #e8b00f; */
 }
 
 .is-open .arrow {
