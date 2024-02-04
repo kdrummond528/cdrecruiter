@@ -10,7 +10,7 @@ const Benefits = () => {
 
             <p className='benefits-p'>
 
-                <Collapsible trigger={["Medical", <IoIosArrowDown />]} className='collapsible'>
+                <Collapsible trigger={["Medical", <IoIosArrowDown class="arrow" />]} className='collapsible'>
                     <p>
                         Enter medical benefits here...
                         <br />
@@ -18,7 +18,7 @@ const Benefits = () => {
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger={["Education", <IoIosArrowDown />]} className='collapsible'>
+                <Collapsible trigger={["Education", <IoIosArrowDown class="arrow" />]} className='collapsible'>
                     <p>
                         Enter education benefits here...
                         <br />
@@ -26,7 +26,7 @@ const Benefits = () => {
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger={["Housing", <IoIosArrowDown />]} className='collapsible'>
+                <Collapsible trigger={["Housing", <IoIosArrowDown class="arrow" />]} className='collapsible'>
                     <p>
                         Enter housing benefits here...
                         <br />
@@ -34,7 +34,7 @@ const Benefits = () => {
                     </p>
                 </Collapsible>
 
-                <Collapsible trigger={["OJT", <IoIosArrowDown />]} className='collapsible'>
+                <Collapsible trigger={["OJT", <IoIosArrowDown class="arrow" />]} className='collapsible'>
                     <p>
                         Enter OJT benefits here...
                         <br />

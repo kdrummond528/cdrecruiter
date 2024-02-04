@@ -1,7 +1,6 @@
 import './App.css';
-import { useState } from 'react';
 import "./components/Fonts/Liberator/Liberator-Heavy.otf";
-import Header from './components/Header';
+import { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -15,22 +14,28 @@ import BackToTopBtn from './components/BackToTopBtn';
 
 function App() {
   const [pageIndex, setPageIndex] = useState(0);
+
   return (
     <div className="App">
 
-      <Header />
+      <header>
 
-      <Nav
-        showHome={() => setPageIndex(0)}
-        showAbout={() => setPageIndex(1)}
-        showBenefits={() => setPageIndex(2)}
-        showProcess={() => setPageIndex(3)}
-        showResources={() => setPageIndex(4)}
-        showBlog={() => setPageIndex(5)}
-        showContact={() => setPageIndex(6)}
+        <h1>Petty Officer Drummond</h1>
+        <h2>United States Navy Talent Scout</h2>
 
-        active={pageIndex}
-      />
+        <Nav
+          showHome={() => setPageIndex(0)}
+          showAbout={() => setPageIndex(1)}
+          showBenefits={() => setPageIndex(2)}
+          showProcess={() => setPageIndex(3)}
+          showResources={() => setPageIndex(4)}
+          showBlog={() => setPageIndex(5)}
+          showContact={() => setPageIndex(6)}
+
+          active={pageIndex}
+        />
+
+      </header>
 
       {pageIndex === 0 ? (
         <Home />

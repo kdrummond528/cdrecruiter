@@ -25,33 +25,35 @@
 
 header {
   background-color: #022a3a;
-  min-height: 10vh;
   /* display: flex; */
   /* flex-direction: column; */
   align-items: center;
   /* justify-content: center; */
-  top: 0;
+  /* top: 0; */
   font-size: 16px;
   color: #e8b00f;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 header h1 {
   font-family: "Heavy";
   font-size: 40px;
+  height: auto
 }
 
 header h2 {
   font-family: "Light";
   font-size: 20px;
   padding: 5px;
+  padding-bottom: 20px;
 }
 
 /* beginning of nav css */
 nav {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
-  margin-top: -30px;
+  padding-bottom: 10px;
+  /* margin-top: -30px; */
 }
 
 nav ul li {
@@ -108,6 +110,7 @@ nav ul li {
   padding-bottom: 40px;
   padding-left: 50px;
   padding-right: 50px;
+  line-height: 1.5em;
 }
 
 .process-body,
@@ -139,16 +142,22 @@ nav ul li {
   padding: 3px;
 }
 
-.collapsible {
-  background-color: #c6ccd0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: solid 1px #022a3a;
+.Collapsible__contentInner {
+  padding: 10px;
 }
 
 .Collapsible__trigger {
+  background-color: #c6ccd0;
   font-family: "Light";
   font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 1px #022a3a;
+  display: block
+}
+
+.is-open .arrow {
+  rotate: 180deg;
 }
 
 .icon {
