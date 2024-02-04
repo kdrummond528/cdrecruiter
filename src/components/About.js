@@ -5,9 +5,9 @@ const About = () => {
         <div>
 
             <p className='pgheader'>About Me</p>
+            <div className='body-div'>
 
-            <p className='about-p'>
-                <p className='about-body'>
+                <p className='body'>
                     My name is Christopher Drummond, and I am a local Acquisition Talent Scout for the United States Navy currently located in Lynnwood, Washington.
                     <br />
                     <br />
@@ -20,9 +20,9 @@ const About = () => {
                     <li>Expeditionary</li>
                     <li>On a ship</li>
                 </p>
-            </p>
 
-        </div>
+            </div>
+        </div >
     )
 }
 

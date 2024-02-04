@@ -8,7 +8,7 @@ const Benefits = () => {
 
             <p className='pgheader'>Benefits</p>
 
-            <p className='benefits-p'>
+            <div className='body-div'>
 
                 <Collapsible trigger={["Medical", <IoIosArrowDown class="arrow" />]} className='collapsible'>
                     <p>
@@ -42,7 +42,7 @@ const Benefits = () => {
                     </p>
                 </Collapsible>
 
-            </p>
+            </div>
         </div>
     )
 }

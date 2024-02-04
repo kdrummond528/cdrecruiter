@@ -25,14 +25,11 @@
 
 header {
   background-color: #022a3a;
-  /* display: flex; */
-  /* flex-direction: column; */
   align-items: center;
-  /* justify-content: center; */
-  /* top: 0; */
   font-size: 16px;
   color: #e8b00f;
   padding-top: 20px;
+  /* make it fixed to the top */
 }
 
 header h1 {
@@ -48,12 +45,9 @@ header h2 {
   padding-bottom: 20px;
 }
 
-/* beginning of nav css */
 nav {
-  /* position: absolute; */
   width: 100%;
   padding-bottom: 10px;
-  /* margin-top: -30px; */
 }
 
 nav ul li {
@@ -68,6 +62,7 @@ nav ul li {
   font-family: "Light";
 }
 
+/* for later use to add linkedin and social media icons in nav bar or footer */
 /* .navicon {
   position: relative;
   margin-right: 10px;
@@ -90,21 +85,13 @@ nav ul li {
   font-family: "Light";
 }
 
-/* ending of nav css */
-
 .pgheader {
   font-family: "Light";
   padding-top: 40px;
   font-size: 32px;
 }
 
-.home-p,
-.about-p,
-.contact-p,
-.process-p,
-.benefits-p,
-.resources-p,
-.blog-p {
+.body-div {
   color: black;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -113,9 +100,7 @@ nav ul li {
   line-height: 1.5em;
 }
 
-.process-body,
-.about-body,
-.resources-body {
+.body {
   background-color: #c6ccd0;
   padding: 15px;
   border: 1px solid #022a3a;
@@ -173,6 +158,14 @@ nav ul li {
   color: #0076a9;
 }
 
+.icon-row {
+  padding-bottom: 5px;
+}
+
+.survey {
+  /* add option to fit to page */
+}
+
 .backtotop-btn {
   margin-bottom: 60px;
 }
@@ -180,7 +173,6 @@ nav ul li {
 footer {
   font-size: 16px;
   color: #c6ccd0;
-  /* min-height: 10vh; */
   padding: 10px;
   position: fixed;
   bottom: 0;
@@ -190,4 +182,10 @@ footer {
 
 footer p {
   font-family: "Light";
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #022a3a;
+  }
 }

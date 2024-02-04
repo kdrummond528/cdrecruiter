@@ -4,12 +4,16 @@ const Home = () => {
     return (
         <div>
 
-            <p className='home-p'>
-                This is the home page.<br />
-                <br />
-                Enter some intro content here.
-            </p>
+            <p className='pgheader'>Home</p>
+            <div className='body-div'>
 
+                <p className='body'>
+                    This is the home page.<br />
+                    <br />
+                    Enter some intro content here.
+                </p>
+
+            </div>
         </div>
     )
 }
