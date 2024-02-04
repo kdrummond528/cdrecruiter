@@ -39,12 +39,17 @@ const Contact = () => {
           <p className='title'>Navy Talent Acquisition Scout</p>
 
           U.S. Navy Talent Acquisition Station Lynnwood<br />
-          <a href="http://maps.google.com/?q=18415 33rd Ave W. Ste. D, Lynnwood, WA 98037">18415 33rd Ave W. Ste. D<br />
+          <a target="_blank" title='Visit our location.' href="http://maps.google.com/?q=18415 33rd Ave W. Ste. D, Lynnwood, WA 98037">18415 33rd Ave W. Ste. D<br />
             Lynnwood, WA 98037</a>
 
           <br />
 
-          Set up an introductory phone call, zoom meeting, or in person meeting with me via <a title='Book an appointment.' href="https://calendly.com/chrisdrummond/">Calendly</a>
+          Set up an introductory phone call, zoom meeting, or in person meeting with me via <a title='Book an appointment.' target="_blank" href="https://calendly.com/chrisdrummond">Calendly</a>.
+          
+          {/* <br /><br />
+
+          Or fill out an <a href='/Survey'>Interest Survey</a> and I will contact you within 1-2 business days. */}
+
 
         </p>
       </div>

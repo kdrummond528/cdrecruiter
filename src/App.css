@@ -163,11 +163,21 @@ nav ul li {
 }
 
 .survey {
+  margin-bottom: 80px;
   /* add option to fit to page */
 }
 
 .backtotop-btn {
-  margin-bottom: 60px;
+  position: fixed;
+  bottom: 60px;
+  right: 25px;
+  cursor: pointer;
+  border: none;
+  color: gray;
+}
+
+.backtotop-btn:hover {
+  color: black;
 }
 
 footer {
