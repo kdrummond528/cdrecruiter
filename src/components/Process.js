@@ -17,27 +17,21 @@ const Process = () => {
 
                 <p className='body'>
                     <p className='body-label'>What to expect at MEPS</p>
-                    When you arrive at MEPS the first step is the aptitude testing. The ASVAB, which takes on average 3.5 hours to complete. The second step will consist of a medical and physical evaluation. After completing all necessary evaluations, the third step will be speaking with a counselor for job selection. The fourth step consists of an in-depth background screening. The final step is the oath of enlistment.<br /><br />
+                    When you arrive at MEPS the first step is the aptitude testing. The ASVAB, which takes on average 3.5 hours to complete. The second step will consist of a medical and physical evaluation. After completing all necessary evaluations, the third step will be speaking with a counselor for job selection. The fourth step consists of an in-depth background screening. The final step is the oath of enlistment.
 
-
-
+                    {/* <br /><br />
                     For more information regarding the MEPS process, view this handout.
                     <br />
-                    Additionally, you may also view this video detailing the process, <a href='https://www.mepcom.army.mil/Home/Applicants-and-Parents/Going-to-the-MEPS/'>A Day at the MEPS</a>.
+                    Additionally, you may also view this video detailing the process, <a href='https://www.mepcom.army.mil/Home/Applicants-and-Parents/Going-to-the-MEPS/'>A Day at the MEPS</a>. */}
                 </p>
 
-                {/* <p className='body'>
-                    <p className='body-label'>Enlisted Jobs</p>
-                    Enter enlisted job rates and info...
-                </p> */}
-
-                <Collapsible trigger={["Enlisted Jobs", <IoIosArrowDown class="arrow" />]} className='collapsible'>
+                {/* <Collapsible trigger={["Enlisted Jobs", <IoIosArrowDown class="arrow" />]} className='collapsible'>
                     <p>
                         Enter enlisted job rates and info...
                         Download the <a target='_blank' href='https://www.cool.osd.mil/usn/resources_and_links/index.html?MobileApp'>Navy COOL Mobile Application</a> to view more information on enlisted job rates, <a target='_blank' href='https://www.cool.osd.mil/usn/resources_and_links/index.html?RatingInfoCards'>here's how</a>.
 
                     </p>
-                </Collapsible>
+                </Collapsible> */}
 
             </div>
 
