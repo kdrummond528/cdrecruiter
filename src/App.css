@@ -171,7 +171,8 @@ nav ul li {
   padding-bottom: 5px;
 }
 
-.survey {
+.survey,
+.appt {
   margin-bottom: 80px;
   margin-top: 20px;
   /* add option to fit to page */

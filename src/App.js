@@ -11,6 +11,7 @@ import Process from './components/Process';
 import Resources from './components/Resources';
 import Blog from './components/Blog';
 import Survey from './components/Survey';
+import Appt from './components/Appt';
 import BackToTopBtn from './components/BackToTopBtn';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           showBlog={() => setPageIndex(5)}
           showContact={() => setPageIndex(6)}
           showSurvey={() => setPageIndex(7)}
+          showAppt={() => setPageIndex(8)}
           active={pageIndex}
         />
 
@@ -54,6 +56,8 @@ function App() {
         <Contact />
       ) : pageIndex === 7 ? (
         <Survey />
+      ) : pageIndex === 8 ? (
+        <Appt />
       ) : (
 
         <Home />

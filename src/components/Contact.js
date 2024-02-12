@@ -4,7 +4,7 @@ import { TbPhone } from "react-icons/tb";
 import { TbMessageCircle2 } from "react-icons/tb";
 import { MdOutlineCalendarMonth } from "react-icons/md";
 
-const Contact = ({showSurvey}) => {
+const Contact = ({ showSurvey }) => {
   return (
     <div>
 
@@ -29,7 +29,7 @@ const Contact = ({showSurvey}) => {
               <TbMessageCircle2 className='icon' size={'2rem'} />
             </a>
 
-            <a href="https://calendly.com/chrisdrummond/"
+            <a target="_blank" href="https://calendar.app.google/M3dqL4s62eQPidVL7"
               title='Book an appointment with me.'>
               <MdOutlineCalendarMonth className='icon' size={'2rem'} />
             </a>

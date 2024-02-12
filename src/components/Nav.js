@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Nav = ({ showHome, showAbout, showBenefits, showContact, showProcess, showResources, showBlog, showSurvey, active }) => {
+const Nav = ({ showHome, showAbout, showBenefits, showContact, showProcess, showResources, showBlog, showSurvey, showAppt, active }) => {
     return (
         <div>
 
@@ -44,6 +44,11 @@ const Nav = ({ showHome, showAbout, showBenefits, showContact, showProcess, show
                     <li className='navlink'>
                         <p onClick={showSurvey} className={active === 7 ? 'navlink active' : 'navlink'}>
                             Interest Survey</p>
+                    </li>
+
+                    <li className='navlink'>
+                        <p onClick={showAppt} className={active === 8 ? 'navlink active' : 'navlink'}>
+                            Schedule an Appointment</p>
                     </li>
 
 
