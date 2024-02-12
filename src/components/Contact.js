@@ -42,13 +42,13 @@ const Contact = ({ showSurvey }) => {
           <a target="_blank" title='Visit our location.' href="http://maps.google.com/?q=18415 33rd Ave W. Ste. D, Lynnwood, WA 98037">18415 33rd Ave W. Ste. D<br />
             Lynnwood, WA 98037</a>
 
-          <br />
-
-          Set up an introductory phone call, zoom meeting, or in person meeting with me via <a title='Book an appointment.' target="_blank" href="https://calendly.com/chrisdrummond">Calendly</a>.
-
           <br /><br />
 
-          Fill out an <a href=''>Interest Survey</a> and I will contact you within 1-2 business days.
+          Set up an introductory phone call with me via <a title='Book an appointment.' target="_blank" href="https://calendar.app.google/M3dqL4s62eQPidVL7">Google Calendar</a>.
+
+          {/* <br /><br /> */}
+
+          {/* Fill out an <a href=''>Interest Survey</a> and I will contact you within 1-2 business days. */}
 
 
         </p>
