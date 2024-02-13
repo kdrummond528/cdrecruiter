@@ -52,13 +52,13 @@ nav {
 
 nav ul li {
   margin: 10px;
-  text-decoration: none;
-  color: #c6ccd0;
+  list-style: none;
+  display: inline;
 }
 
 .navlink {
-  list-style: none;
-  display: inline;
+  text-decoration: none;
+  color: #c6ccd0;
   font-family: "Light";
 }
 
