@@ -1,10 +1,44 @@
-import React from 'react'
+import React from 'react';
+// import Headshot from '../img/headshot.png';
+import { Card, Image, Stack, Heading, Text, Button, CardBody, CardFooter } from '@chakra-ui/react';
 
 const About = () => {
     return (
         <div>
 
             <p className='pgheader'>About Me</p>
+
+            {/* <Card
+                direction={{ base: 'column', sm: 'row' }}
+                overflow='hidden'
+                variant='outline'
+            >
+<Image
+                    objectFit='cover'
+                    maxW={{ base: '100%', sm: '200px' }}
+                    src={Headshot}
+                    alt='Chris Drummond'
+
+
+                <Stack>
+                    <CardBody>
+                        <Heading size='md'>The perfect latte</Heading>
+
+                        <Text py='2'>
+                            Caffè latte is a coffee beverage of Italian origin made with espresso
+                            and steamed milk.
+                        </Text>
+                    </CardBody>
+
+                    <CardFooter>
+                        <Button variant='solid' colorScheme='blue'>
+                            Buy Latte
+                        </Button>
+                    </CardFooter>
+
+                </Stack>
+            </Card> */}
+
             <div className='body-div'>
 
                 <p className='body'>

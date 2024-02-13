@@ -1,19 +1,26 @@
-import React from 'react'
+import React from 'react';
+import Ntag from '../img/ntag_logo.PNG';
+import { Image } from '@chakra-ui/react';
 
 const Home = () => {
     return (
         <div>
 
-            <p className='pgheader'>Home</p>
-            <div className='body-div'>
+            <Image borderRadius='full'
+                boxSize='300px' className='ntag-logo' src={Ntag} align='left' />
 
-                <p className='body'>
-                    This is the home page.<br />
-                    <br />
-                    Enter some intro content here.
-                </p>
+            <div className='home-div'>
+                <p className='pgheader'>Home</p>
+                <div className='body-div'>
 
-            </div> 
+                    <p className='body'>
+                        This is the home page.<br />
+                        <br />
+                        Enter some intro content here.
+                    </p>
+                </div>
+            </div>
+
         </div>
     )
 }
