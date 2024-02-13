@@ -5,7 +5,7 @@ import RibPic from '../img/ribpic1.jpg';
 import EngRoom from '../img/engineroompic.jpg';
 import FleetWk from '../img/fleetwk.jpg';
 import Promotion from '../img/promotion.jpg';
-import OceanView from '../img/oceanview2.jpg';
+import OceanView from '../img/oceanview1.jpg';
 import NoruGrad from '../img/norugrad.jpg';
 
 const About = () => {
@@ -87,47 +87,14 @@ const About = () => {
                         <CardBody>
 
                             <Image
-                                src={RibPic}
-                                alt='On the rib'
-                                borderRadius='lg'
-                            />
-
-                            <Stack mt='6' spacing='3'>
-                                <Heading size='md'>
-                                    Underways on the Rib
-                                </Heading>
-
-                                <Text>
-                                    During this underway I was on the rib doing such and such...
-                                </Text>
-
-                            </Stack>
-                        </CardBody>
-
-                        <Divider />
-
-                        <Text>
-                            USS Cincinnati — 2023
-                        </Text>
-
-
-                    </Card>
-                </Box>
-
-                <Box>
-                    <Card maxW='sm' className='gallery-cards'>
-                        <CardBody>
-
-                            <Image
                                 src={EngRoom}
                                 alt='In the engineroom'
                                 borderRadius='lg'
                             />
 
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>
-                                    Working on the Engine
-                                </Heading>
+                                <p size='md' className='name'>                        Engine Work
+                                </p>
 
                                 <Text>
                                     I was working on ... in the engine spaces...
@@ -137,9 +104,8 @@ const About = () => {
 
                         <Divider />
 
-                        <Text>
-                            USS Cincinnati — 2022
-                        </Text>
+                        <p size='md' className='title'>                              USS Cincinnati — 2022
+                        </p>
                     </Card>
                 </Box>
 
@@ -154,9 +120,8 @@ const About = () => {
                             />
 
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>
-                                    Fleet Week in L.A.
-                                </Heading>
+                                <p size='md' className='name'>                                    Fleet Week in L.A.
+                                </p>
 
                                 <Text>
                                     I met Chauncey Leopardi (The Sandlot) while on Fleet Week in Los Angeles.
@@ -166,9 +131,8 @@ const About = () => {
 
                         <Divider />
 
-                        <Text>
-                            USS Cincinnati — 2023
-                        </Text>
+                        <p size='md' className='title'>                              USS Cincinnati — 2023
+                        </p>
                     </Card>
                 </Box>
 
@@ -183,9 +147,9 @@ const About = () => {
                             />
 
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>
+                                <p size='md' className='name'>
                                     EN1 Promotion
-                                </Heading>
+                                </p>
 
                                 <Text>
                                     When I was promoted to First Class Petty Officer.
@@ -195,9 +159,38 @@ const About = () => {
 
                         <Divider />
 
-                        <Text>
-                            USS Cincinnati — 2023
-                        </Text>
+                        <p size='md' className='title'>                              USS Cincinnati — 2023
+                        </p>
+                    </Card>
+                </Box>
+
+                <Box>
+                    <Card maxW='sm' className='gallery-cards'>
+                        <CardBody>
+
+                            <Image
+                                src={RibPic}
+                                alt='On the rib'
+                                borderRadius='lg'
+                            />
+
+                            <Stack mt='6' spacing='3'>
+                                <p size='md' className='name'>                        On The Rib
+                                </p>
+
+                                <Text>
+                                    During this underway I was on the rib doing such and such...
+                                </Text>
+
+                            </Stack>
+                        </CardBody>
+
+                        <Divider />
+
+                        <p size='md' className='title'>                            USS Cincinnati — 2023
+                        </p>
+
+
                     </Card>
                 </Box>
 
@@ -212,21 +205,19 @@ const About = () => {
                             />
 
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>
-                                    Underway Ocean Views
-                                </Heading>
+                                <p size='md' className='name'>                      Ocean Views
+                                </p>
 
                                 <Text>
-                                    One of a kind views during underways.
+                                    One of a kind ocean views during underways.
                                 </Text>
                             </Stack>
                         </CardBody>
 
                         <Divider />
 
-                        <Text>
-                            USS Cincinnati — 2022
-                        </Text>
+                        <p size='md' className='title'>                              USS Cincinnati — 2022
+                        </p>
                     </Card>
                 </Box>
 
@@ -241,9 +232,9 @@ const About = () => {
                             />
 
                             <Stack mt='6' spacing='3'>
-                                <Heading size='md'>
-                                    Graduating from NORU
-                                </Heading>
+                                <p size='md' className='name'>
+                                    NORU Graduation
+                                </p>
 
                                 <Text>
                                     After completing recruiting school...
@@ -253,9 +244,8 @@ const About = () => {
 
                         <Divider />
 
-                        <Text>
-                            NORU — 2023
-                        </Text>
+                        <p size='md' className='title'>                              NORU — 2023
+                        </p>
                     </Card>
                 </Box>
 
