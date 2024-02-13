@@ -69,6 +69,10 @@ nav ul li {
   cursor: pointer;
 }
 
+.ntag-logo {
+  padding: 15px;
+}
+
 .card {
   width: 80%;
   margin-top: 4%;
@@ -82,17 +86,6 @@ nav ul li {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 8%;
-}
-
-.home-div {
-  width: 65%;
-  margin-left: 35%;
-  /* margin-top: -365px; */
-}
-
-.ntag-logo {
-  margin-right: 60%;
-  margin-top: 60px;
 }
 
 .pgheader {
