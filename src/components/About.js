@@ -4,6 +4,9 @@ import { Card, CardHeader, Heading, StackDivider, Box, Image, Stack, Text, CardB
 import RibPic from '../img/ribpic1.jpg';
 import EngRoom from '../img/engineroompic.jpg';
 import FleetWk from '../img/fleetwk.jpg';
+import Promotion from '../img/promotion.jpg';
+import OceanView from '../img/oceanview2.jpg';
+import NoruGrad from '../img/norugrad.jpg';
 
 const About = () => {
     return (
@@ -169,8 +172,94 @@ const About = () => {
                     </Card>
                 </Box>
 
+                <Box>
+                    <Card maxW='sm' className='gallery-cards'>
+                        <CardBody>
+
+                            <Image
+                                src={Promotion}
+                                alt='Fleet Week'
+                                borderRadius='lg'
+                            />
+
+                            <Stack mt='6' spacing='3'>
+                                <Heading size='md'>
+                                    EN1 Promotion
+                                </Heading>
+
+                                <Text>
+                                    When I was promoted to First Class Petty Officer.
+                                </Text>
+                            </Stack>
+                        </CardBody>
+
+                        <Divider />
+
+                        <Text>
+                            USS Cincinnati — 2023
+                        </Text>
+                    </Card>
+                </Box>
+
+                <Box>
+                    <Card maxW='sm' className='gallery-cards'>
+                        <CardBody>
+
+                            <Image
+                                src={OceanView}
+                                alt='Ocean views'
+                                borderRadius='lg'
+                            />
+
+                            <Stack mt='6' spacing='3'>
+                                <Heading size='md'>
+                                    Underway Ocean Views
+                                </Heading>
+
+                                <Text>
+                                    One of a kind views during underways.
+                                </Text>
+                            </Stack>
+                        </CardBody>
+
+                        <Divider />
+
+                        <Text>
+                            USS Cincinnati — 2022
+                        </Text>
+                    </Card>
+                </Box>
+
+                <Box>
+                    <Card maxW='sm' className='gallery-cards'>
+                        <CardBody>
+
+                            <Image
+                                src={NoruGrad}
+                                alt='NORU Graduation'
+                                borderRadius='lg'
+                            />
+
+                            <Stack mt='6' spacing='3'>
+                                <Heading size='md'>
+                                    Graduating from NORU
+                                </Heading>
+
+                                <Text>
+                                    After completing recruiting school...
+                                </Text>
+                            </Stack>
+                        </CardBody>
+
+                        <Divider />
+
+                        <Text>
+                            NORU — 2023
+                        </Text>
+                    </Card>
+                </Box>
+
             </SimpleGrid>
-            {/* </div> */}
 
         </div >
     )
