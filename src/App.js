@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Info from './components/Info';
 import About from './components/About';
 import Resources from './components/Resources';
-import Blog from './components/Blog';
+// import Blog from './components/Blog';
 import Survey from './components/Survey';
 import Appt from './components/Appt';
 import BackToTopBtn from './components/BackToTopBtn';
@@ -36,7 +36,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/survey" element={<Survey />} />
             <Route path="/appt" element={<Appt />} />
-            <Route path="/blog" element={<Blog />} />
+            {/* <Route path="/blog" element={<Blog />} /> */}
           </Routes>
         </div>
       </>

@@ -34,9 +34,9 @@ const Nav = () => {
                     <Link to="/appt" className='navlink'>Schedule an Appointment</Link>
                 </li>
 
-                <li>
+                {/* <li>
                     <Link to="/blog" className='navlink'>Blog</Link>
-                </li>
+                </li> */}
             </ul>
         </nav>
     )
