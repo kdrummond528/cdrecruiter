@@ -8,7 +8,7 @@ const Nav = () => {
         <nav className='nav'>
 
             <Menu>
-                <MenuButton as={Button}
+                <MenuButton as={Button} className='navbutton'
                     rightIcon={<ChevronDownIcon />}>Information
                 </MenuButton>
 
@@ -60,9 +60,9 @@ const Nav = () => {
                     <Link to="/about" className='navlink'>About</Link>
                 </li>
 
-                <li>
+                {/* <li>
                     <Link to="/info" className='navlink'>Info</Link>
-                </li>
+                </li> */}
 
                 {/* <li>
                     <Link to="/resources" className='navlink'>Resources</Link>

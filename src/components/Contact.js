@@ -11,9 +11,9 @@ const Contact = () => {
     <div>
 
       <Card className='card'>
-        <p className='pgheader'>Contact Me</p>
+        <p className='contact-pgheader'>Contact Me</p>
 
-        <CardHeader>
+        <div>
 
           <a href="mailto: christopher.e.drummond2.mil@us.navy.mil"
             title='Email me.'>
@@ -42,7 +42,7 @@ const Contact = () => {
           <a className='link' target="_blank" rel="noreferrer" title='Visit our location.' href="http://maps.google.com/?q=18415 33rd Ave W. Ste. D, Lynnwood, WA 98037">18415 33rd Ave W. Ste. D<br />
             Lynnwood, WA 98037</a>
 
-        </CardHeader>
+        </div>
 
         <CardBody>
           <Stack divider={<StackDivider />} spacing='4'>
