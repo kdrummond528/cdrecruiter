@@ -1,6 +1,5 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import Process from './Process';
 import { IoIosArrowDown } from "react-icons/io";
 
 const Benefits = () => {
@@ -44,8 +43,6 @@ const Benefits = () => {
                 </Collapsible>
 
             </div>
-
-            <Process />
 
         </div>
     )

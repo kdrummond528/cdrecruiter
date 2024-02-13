@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Info from './components/Info';
+import Benefits from './components/Benefits';
+import Process from './components/Process';
 import About from './components/About';
 import Resources from './components/Resources';
 // import Blog from './components/Blog';
@@ -37,6 +39,9 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/info" element={<Info />} />
+              <Route path="/benefits" element={<Benefits />} />
+              <Route path="/process" element={<Process />} />
+
               <Route path="/resources" element={<Resources />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/survey" element={<Survey />} />

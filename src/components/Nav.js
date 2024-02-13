@@ -1,10 +1,56 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { Dropdown } from 'rsuite';
+import { Menu, MenuButton, MenuList, MenuItem, Button } from '@chakra-ui/react';
+import { ChevronDownIcon } from '@chakra-ui/icons';
 
 const Nav = () => {
     return (
         <nav className='nav'>
+
+            <Menu>
+                <MenuButton as={Button}
+                    rightIcon={<ChevronDownIcon />}>Information
+                </MenuButton>
+
+                <MenuList>
+
+                    <MenuItem>
+                        <Link to="/benefits" className='navlink'>
+                            Benefits</Link>
+                    </MenuItem>
+
+                    <MenuItem>
+                        <Link to="/process" className='navlink'>
+                            Process of Enlisting</Link>
+                    </MenuItem>
+
+                    <MenuItem>
+                        <Link to="/resources" className='navlink'>Resources</Link>
+                    </MenuItem>
+
+                </MenuList>
+            </Menu>
+
+            <Menu>
+                <MenuButton as={Button}
+                    rightIcon={<ChevronDownIcon />}>Learn More
+                </MenuButton>
+
+                <MenuList>
+
+                    <MenuItem>
+                        <Link to="/survey" className='navlink'>
+                            Interest Survey</Link>
+                    </MenuItem>
+
+                    <MenuItem>
+                        <Link to="/appt" className='navlink'>
+                            Schedule an Appointment</Link>
+                    </MenuItem>
+
+                </MenuList>
+            </Menu>
+
             <ul>
                 <li>
                     <Link to="/home" className='navlink'>Home</Link>
@@ -18,21 +64,21 @@ const Nav = () => {
                     <Link to="/info" className='navlink'>Info</Link>
                 </li>
 
-                <li>
+                {/* <li>
                     <Link to="/resources" className='navlink'>Resources</Link>
-                </li>
+                </li> */}
 
                 <li>
                     <Link to="/contact" className='navlink'>Contact</Link>
                 </li>
 
-                <li>
+                {/* <li>
                     <Link to="/survey" className='navlink'>Interest Survey</Link>
-                </li>
+                </li> */}
 
-                <li>
+                {/* <li>
                     <Link to="/appt" className='navlink'>Schedule an Appointment</Link>
-                </li>
+                </li> */}
 
                 {/* <li>
                     <Link to="/blog" className='navlink'>Blog</Link>
