@@ -123,7 +123,7 @@ const About = () => {
 
                             <Stack mt='6' spacing='3'>
                                 <Heading size='md'>
-                                    Working in the Engine Room
+                                    Working on the Engine
                                 </Heading>
 
                                 <Text>
@@ -156,7 +156,7 @@ const About = () => {
                                 </Heading>
 
                                 <Text>
-                                    I met Chuck Lidell while on Fleet Week in Los Angeles.
+                                    I met Chauncey Leopardi (The Sandlot) while on Fleet Week in Los Angeles.
                                 </Text>
                             </Stack>
                         </CardBody>
