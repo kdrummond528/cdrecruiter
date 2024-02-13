@@ -85,6 +85,12 @@ nav ul li {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 4%;
+}
+
+.gallery {
+  padding-left: 10%;
+  padding-right: 10%;
   margin-bottom: 8%;
 }
 

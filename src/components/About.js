@@ -1,6 +1,9 @@
 import React from 'react';
 import Profilepic from '../img/profilepic.jpg';
-import { Card, CardHeader, Heading, StackDivider, Box, Image, Stack, Text, Button, CardBody, CardFooter } from '@chakra-ui/react';
+import { Card, CardHeader, Heading, StackDivider, Box, Image, Stack, Text, CardBody, Divider, SimpleGrid } from '@chakra-ui/react';
+import RibPic from '../img/ribpic1.jpg';
+import EngRoom from '../img/engineroompic.jpg';
+import FleetWk from '../img/fleetwk.jpg';
 
 const About = () => {
     return (
@@ -72,23 +75,103 @@ const About = () => {
                 </CardBody>
             </Card>
 
-            {/* <div className='body-div'>
+            {/* beginning of career photo gallery */}
+            <p className='pgheader'>My Career At a Glance</p>
+            <SimpleGrid columns={3} spacing={10} className='gallery'>
 
-                <p className='body'>
-                    My name is Christopher Drummond, and I am a local Acquisition Talent Scout for the United States Navy currently located in Lynnwood, Washington.
-                    <br />
-                    <br />
-                    Talk about yourself hobbies, getting degrees while active duty, previous experience as a cop, whatever you want...
-                    <br />
-                    <br />
-                    <p className='body-label'>My Career and Experience as a Sailor</p>
-                    Detail your personal experience...
-                    <li>As a reservist</li>
-                    <li>Expeditionary</li>
-                    <li>On a ship</li>
-                </p>
+                <Box>
+                    <Card maxW='sm' className='gallery-cards'>
+                        <CardBody>
 
-            </div> */}
+                            <Image
+                                src={RibPic}
+                                alt='On the rib'
+                                borderRadius='lg'
+                            />
+
+                            <Stack mt='6' spacing='3'>
+                                <Heading size='md'>
+                                    Underways on the Rib
+                                </Heading>
+
+                                <Text>
+                                    During this underway I was on the rib doing such and such...
+                                </Text>
+
+                            </Stack>
+                        </CardBody>
+
+                        <Divider />
+
+                        <Text>
+                            USS Cincinnati — 2023
+                        </Text>
+
+
+                    </Card>
+                </Box>
+
+                <Box>
+                    <Card maxW='sm' className='gallery-cards'>
+                        <CardBody>
+
+                            <Image
+                                src={EngRoom}
+                                alt='In the engineroom'
+                                borderRadius='lg'
+                            />
+
+                            <Stack mt='6' spacing='3'>
+                                <Heading size='md'>
+                                    Working in the Engine Room
+                                </Heading>
+
+                                <Text>
+                                    I was working on ... in the engine spaces...
+                                </Text>
+                            </Stack>
+                        </CardBody>
+
+                        <Divider />
+
+                        <Text>
+                            USS Cincinnati — 2022
+                        </Text>
+                    </Card>
+                </Box>
+
+                <Box>
+                    <Card maxW='sm' className='gallery-cards'>
+                        <CardBody>
+
+                            <Image
+                                src={FleetWk}
+                                alt='Fleet Week'
+                                borderRadius='lg'
+                            />
+
+                            <Stack mt='6' spacing='3'>
+                                <Heading size='md'>
+                                    Fleet Week in L.A.
+                                </Heading>
+
+                                <Text>
+                                    I met Chuck Lidell while on Fleet Week in Los Angeles.
+                                </Text>
+                            </Stack>
+                        </CardBody>
+
+                        <Divider />
+
+                        <Text>
+                            USS Cincinnati — 2023
+                        </Text>
+                    </Card>
+                </Box>
+
+            </SimpleGrid>
+            {/* </div> */}
+
         </div >
     )
 }

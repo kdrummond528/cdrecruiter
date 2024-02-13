@@ -7,7 +7,7 @@ const Benefits = () => {
     return (
         <div>
             <p className='benefits-pgheader'>Benefits</p>
-            <p>Explore the various benefits available to you by joining.</p>
+            <p>Explore the various benefits available to you by joining the Navy.</p>
             <Accordion defaultIndex={[0]} allowMultiple className='card'>
                 <AccordionItem>
                     <h2>
