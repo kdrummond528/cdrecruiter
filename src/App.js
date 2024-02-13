@@ -12,6 +12,7 @@ import Resources from './components/Resources';
 import Survey from './components/Survey';
 import Appt from './components/Appt';
 import BackToTopBtn from './components/BackToTopBtn';
+// import Ntag from './img/ntag_logo.PNG';
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
     <div className="App">
 
       <header>
+
+        {/* <img src={<Ntag />} /> */}
 
         <h1>Petty Officer Drummond</h1>
         <h2>United States Navy Talent Scout</h2>
@@ -29,7 +32,7 @@ function App() {
         {/* <Nav /> */}
         <div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/info" element={<Info />} />
             <Route path="/resources" element={<Resources />} />
