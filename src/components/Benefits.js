@@ -1,5 +1,6 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
+import Process from './Process';
 import { IoIosArrowDown } from "react-icons/io";
 
 const Benefits = () => {
@@ -8,7 +9,7 @@ const Benefits = () => {
 
             <p className='pgheader'>Benefits</p>
 
-            <div className='body-div'>
+            <div className='benefits-body-div'>
 
                 <Collapsible trigger={["Medical", <IoIosArrowDown class="arrow" />]} className='collapsible'>
                     <p>
@@ -43,6 +44,9 @@ const Benefits = () => {
                 </Collapsible>
 
             </div>
+
+            <Process />
+
         </div>
     )
 }

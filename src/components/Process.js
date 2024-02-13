@@ -1,12 +1,12 @@
 import React from 'react';
-import Collapsible from 'react-collapsible';
-import { IoIosArrowDown } from "react-icons/io";
+// import Collapsible from 'react-collapsible';
+// import { IoIosArrowDown } from "react-icons/io";
 
 const Process = () => {
     return (
         <div>
 
-            <p className='pgheader'>Process of Enlisting</p>
+            <p className='process-pgheader'>Process of Enlisting</p>
 
             <div className='body-div'>
 

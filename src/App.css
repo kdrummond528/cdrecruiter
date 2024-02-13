@@ -91,6 +91,12 @@ nav ul li {
   font-size: 32px;
 }
 
+.process-pgheader {
+  font-family: "Light";
+  /* padding-top: 5px; */
+  font-size: 32px;
+}
+
 .body-div {
   color: black;
   padding-top: 20px;
@@ -99,6 +105,15 @@ nav ul li {
   padding-right: 50px;
   line-height: 1.5em;
   margin-bottom: 35px;
+}
+
+.benefits-body-div {
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 1.5em;
 }
 
 .body {
