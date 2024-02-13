@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import { Dropdown } from 'rsuite';
 
 const Nav = () => {
     return (
         <nav className='nav'>
             <ul>
                 <li>
-                    <Link to="/" className='navlink'>Home</Link>
+                    <Link to="/home" className='navlink'>Home</Link>
                 </li>
 
                 <li>
