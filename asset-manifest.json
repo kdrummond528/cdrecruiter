@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/cdrecruiter/static/css/main.dd285b78.css",
-    "main.js": "/cdrecruiter/static/js/main.5698fd8f.js",
+    "main.js": "/cdrecruiter/static/js/main.d95e2dda.js",
     "static/js/592.a6476282.chunk.js": "/cdrecruiter/static/js/592.a6476282.chunk.js",
     "static/media/fleetwk.jpg": "/cdrecruiter/static/media/fleetwk.3e616644052d5ee5537c.jpg",
+    "static/media/oceanview2.jpg": "/cdrecruiter/static/media/oceanview2.3425fd9692ef42573396.jpg",
+    "static/media/promotion.jpg": "/cdrecruiter/static/media/promotion.2d94dfb66896f790aec3.jpg",
     "static/media/profilepic.jpg": "/cdrecruiter/static/media/profilepic.cbec88dd51a4fdbabfc0.jpg",
     "static/media/engineroompic.jpg": "/cdrecruiter/static/media/engineroompic.c243a3dadab91b6061c6.jpg",
     "static/media/ribpic1.jpg": "/cdrecruiter/static/media/ribpic1.36f02f86fcc6fae03e08.jpg",
     "static/media/ntag_logo.PNG": "/cdrecruiter/static/media/ntag_logo.12a17229ee545f668fea.PNG",
+    "static/media/norugrad.jpg": "/cdrecruiter/static/media/norugrad.62175ca065ee95b46501.jpg",
     "static/media/Liberator-Heavy.otf": "/cdrecruiter/static/media/Liberator-Heavy.8c9d3bf9ed1d4554a1ad.otf",
     "static/media/Liberator-Medium.otf": "/cdrecruiter/static/media/Liberator-Medium.55cba9fc27a6ad9bf09e.otf",
     "static/media/Liberator-Light.otf": "/cdrecruiter/static/media/Liberator-Light.1011d3fe66071684b2fb.otf",
     "index.html": "/cdrecruiter/index.html",
     "main.dd285b78.css.map": "/cdrecruiter/static/css/main.dd285b78.css.map",
-    "main.5698fd8f.js.map": "/cdrecruiter/static/js/main.5698fd8f.js.map",
+    "main.d95e2dda.js.map": "/cdrecruiter/static/js/main.d95e2dda.js.map",
     "592.a6476282.chunk.js.map": "/cdrecruiter/static/js/592.a6476282.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd285b78.css",
-    "static/js/main.5698fd8f.js"
+    "static/js/main.d95e2dda.js"
   ]
 }
