@@ -85,10 +85,16 @@ nav ul li {
   font-family: "Light";
 }
 
+.card {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .home-div {
   width: 65%;
   margin-left: 35%;
-  margin-top: -365px;
+  /* margin-top: -365px; */
 }
 
 .ntag-logo {
@@ -154,6 +160,17 @@ nav ul li {
   padding: 3px;
 }
 
+.link {
+  text-decoration: underline;
+  color: #0076a9;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #e8b00f;
+}
+
 .Collapsible__trigger {
   background-color: #c6ccd0;
   font-family: "Light";
@@ -182,19 +199,20 @@ nav ul li {
 .icon {
   padding-left: 10px;
   padding-right: 10px;
+  display: inline;
 }
 
 .icon {
-  color: #022a3a;
-}
-
-.icon:hover {
   color: #0076a9;
 }
 
-.icon-row {
-  padding-bottom: 5px;
+.icon:hover {
+  color: #e8b00f;
 }
+
+/* .icon-row {
+  padding-bottom: 5px;
+} */
 
 .survey,
 .appt {
