@@ -10,9 +10,9 @@ const Contact = () => {
   return (
     <div>
 
-      <p className='pgheader'>Contact Me</p>
-
       <Card className='card'>
+        <p className='pgheader'>Contact Me</p>
+
         <CardHeader>
 
           <a href="mailto: christopher.e.drummond2.mil@us.navy.mil"

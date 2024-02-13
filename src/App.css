@@ -87,8 +87,17 @@ nav ul li {
 
 .card {
   width: 80%;
+  margin-top: 4%;
+  margin-bottom: 2%;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.subcard {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 8%;
 }
 
 .home-div {
