@@ -15,8 +15,6 @@ import Survey from './components/Survey';
 import Appt from './components/Appt';
 import BackToTopBtn from './components/BackToTopBtn';
 import { ChakraProvider } from '@chakra-ui/react'
-// import Ntag from './img/ntag_logo.PNG';
-import { Image } from '@chakra-ui/react';
 
 function App() {
 
@@ -26,16 +24,12 @@ function App() {
 
         <header>
 
-          {/* <Image borderRadius='full'
-            boxSize='300px' className='ntag-logo' src={Ntag} /> */}
-
           <h1>Petty Officer Drummond</h1>
           <h2>United States Navy Talent Scout</h2>
           <Nav />
         </header>
 
         <>
-          {/* <Nav /> */}
           <div>
             <Routes>
               <Route path="/home" element={<Home />} />

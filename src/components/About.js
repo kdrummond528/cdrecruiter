@@ -49,27 +49,30 @@ const About = () => {
                     <Stack divider={<StackDivider />} spacing='4'>
 
                         <Box>
-                            <Heading size='xs' textTransform='uppercase'>
+                            <Text size='xs' textTransform='uppercase'
+                                className='title'>
                                 Ship Life
-                            </Heading>
+                            </Text>
                             <Text pt='2' fontSize='sm'>
                                 Detail your personal experiences on a ship...
                             </Text>
                         </Box>
 
                         <Box>
-                            <Heading size='xs' textTransform='uppercase'>
+                            <Text size='xs' textTransform='uppercase'
+                                className='title'>
                                 Expeditionary
-                            </Heading>
+                            </Text>
                             <Text pt='2' fontSize='sm'>
                                 Detail your personal experiences on an expeditionary command...
                             </Text>
                         </Box>
 
                         <Box>
-                            <Heading size='xs' textTransform='uppercase'>
+                            <Text size='xs' textTransform='uppercase'
+                                className='title'>
                                 Reserve
-                            </Heading>
+                            </Text>
                             <Text pt='2' fontSize='sm'>
                                 Detail your personal experiences as a reservist...
                             </Text>

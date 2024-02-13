@@ -1,14 +1,13 @@
 import React from 'react';
-import Collapsible from 'react-collapsible';
-import { IoIosArrowDown } from "react-icons/io";
-import { Accordion, Box, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react'
+import { Accordion, Box, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react';
 
 const Benefits = () => {
     return (
         <div>
             <p className='benefits-pgheader'>Benefits</p>
             <p>Explore the various benefits available to you by joining the Navy.</p>
-            <Accordion defaultIndex={[0]} allowMultiple className='card'>
+            <Accordion allowToggle className='card' 
+            marginBottom={'20%'}>
                 <AccordionItem>
                     <h2>
                         <AccordionButton>

@@ -69,6 +69,12 @@ nav ul li {
   cursor: pointer;
 }
 
+.navbutton {
+  margin: 10px;
+  font-size: 19px;
+  font-family: "Medium";
+}
+
 .ntag-logo {
   padding: 15px;
 }
@@ -92,6 +98,7 @@ nav ul li {
   padding-left: 10%;
   padding-right: 10%;
   margin-bottom: 8%;
+  columns: 3;
 }
 
 .pgheader {
@@ -100,7 +107,8 @@ nav ul li {
 }
 
 .contact-pgheader,
-.benefits-pgheader {
+.benefits-pgheader,
+.resources-pgheader {
   font-family: "Light";
   font-size: 32px;
   padding-top: 20px;
@@ -166,31 +174,6 @@ nav ul li {
   color: #e8b00f;
 }
 
-.Collapsible__trigger {
-  background-color: #c6ccd0;
-  font-family: "Light";
-  font-size: 20px;
-  color: #022a3a;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: solid 1px #022a3a;
-  /* border-left: solid 1px #022a3a;
-  border-right: solid 1px #022a3a; */
-  border-radius: 5px;
-  display: block
-}
-
-.Collapsible__contentInner {
-  padding: 10px;
-  border-radius: 5px;
-  /* border-left: 1px solid #e8b00f;
-  border-right: 1px solid #e8b00f; */
-}
-
-.is-open .arrow {
-  rotate: 180deg;
-}
-
 .icon {
   padding-left: 10px;
   padding-right: 10px;
@@ -204,10 +187,6 @@ nav ul li {
 .icon:hover {
   color: #e8b00f;
 }
-
-/* .icon-row {
-  padding-bottom: 5px;
-} */
 
 .survey,
 .appt {
@@ -245,10 +224,11 @@ footer p {
   font-family: "Light";
 }
 
-/* @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
 
-  .survey {
-    width: 80%;
+  .gallery {
+    width: 100%;
+    columns: 1;
   }
 
-} */
+}

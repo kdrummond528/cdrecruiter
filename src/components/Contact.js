@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div>
 
-      <Card className='card'>
+      <Card className='card' marginBottom={'20%'}>
         <p className='contact-pgheader'>Contact Me</p>
 
         <div>
@@ -48,9 +48,10 @@ const Contact = () => {
           <Stack divider={<StackDivider />} spacing='4'>
 
             <Box>
-              <Heading size='xs' textTransform='uppercase'>
+              <Text size='xs' textTransform='uppercase'
+                className='title'>
                 Let's talk.
-              </Heading>
+              </Text>
 
               <Text pt='2' fontSize='sm'>
                 Set up an introductory phone call with me via <a title='Book an appointment.' className='link' target="_blank" rel="noreferrer" href="https://calendar.app.google/M3dqL4s62eQPidVL7">Google Calendar</a>.
@@ -58,9 +59,10 @@ const Contact = () => {
             </Box>
 
             <Box>
-              <Heading size='xs' textTransform='uppercase'>
+              <Text size='xs' textTransform='uppercase'
+                className='title'>
                 Share your contact information.
-              </Heading>
+              </Text>
 
               <Text pt='2' fontSize='sm'>
                 Fill out an <Link to='/survey' className='link'>Interest Survey</Link> and I will contact you within 1-2 business days.
