@@ -1,34 +1,49 @@
-import React from 'react'
+import React from 'react';
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
 
 const Resources = () => {
     return (
         <div>
 
-            <p className='pgheader'>Resources</p>
+            <Tabs variant='enclosed' className='card'>
+                <p className='pgheader'>Resources</p>
 
-            <div className='body-div'>
-                
-                <p className='body'>
-                    <p className='body-label'>Practice ASVAB</p>
-                    Resources on practice asvab go here...
-                </p>
+                <TabList>
+                    <Tab>Practice ASVAB</Tab>
+                    <Tab>Physical Fitness</Tab>
+                    <Tab>Preparing for Bootcamp</Tab>
+                    <Tab>Bootcamp Expectations</Tab>
+                </TabList>
 
-                <p className='body'>
-                    <p className='body-label'>Physical Fitness</p>
-                    Resources and info about physical fitness before and after joining goes here...
-                </p>
+                <TabPanels>
 
-                <p className='body'>
-                    <p className='body-label'>Preparing for Bootcamp</p>
-                    Resources and info on Pre-bootcamp study guide goes here...
-                </p>
+                    <TabPanel>
+                        <p>
+                            Resources on practice asvab go here...
+                        </p>
+                    </TabPanel>
 
-                <p className='body'>
-                    <p className='body-label'>Bootcamp Expectations</p>
-                    Resources and info on bootcamp expectations goes here...
-                </p>
+                    <TabPanel>
+                        <p>
+                            Resources and info about physical fitness before and after joining goes here...
+                        </p>
+                    </TabPanel>
 
-            </div>
+                    <TabPanel>
+                        <p>
+                            Resources and info on Pre-bootcamp study guide goes here...
+                        </p>
+                    </TabPanel>
+
+                    <TabPanel>
+                        <p>
+                            Resources and info on bootcamp expectations goes here...
+                        </p>
+                    </TabPanel>
+
+                </TabPanels>
+            </Tabs>
+
         </div>
     )
 }
