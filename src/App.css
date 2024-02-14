@@ -29,20 +29,19 @@ header {
   font-size: 16px;
   color: #e8b00f;
   padding-top: 20px;
-  /* make it fixed to the top */
+  /* make it fixed to the top??? */
 }
 
-header h1 {
+.pg-name {
   font-family: "Heavy";
   font-size: 40px;
-  height: auto
+  line-height: .8em;
 }
 
-header h2 {
+.pg-subname {
   font-family: "Light";
   font-size: 20px;
-  padding: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 8px;
 }
 
 nav {
@@ -57,6 +56,18 @@ nav ul li {
 }
 
 .navlink {
+  text-decoration: none;
+  color: #e8b00f;
+  font-size: 19px;
+  font-family: "Medium";
+}
+
+.menu-btn {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.dropdown-navlink {
   text-decoration: none;
   color: #e8b00f;
   font-size: 19px;
@@ -114,39 +125,9 @@ nav ul li {
   padding-top: 20px;
 }
 
-.body-div {
-  color: black;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  padding-left: 50px;
-  padding-right: 50px;
-  line-height: 1.5em;
-  margin-bottom: 35px;
-}
-
-.benefits-body-div {
-  color: black;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  padding-left: 50px;
-  padding-right: 50px;
-  line-height: 1.5em;
-}
-
-.body {
-  background-color: #c6ccd0;
-  padding: 15px;
-  border: 1px solid #022a3a;
-  border-radius: 10px;
-  margin: 10px;
-  margin-bottom: 25px;
-}
-
-.body-label {
-  font-family: "Light";
-  font-size: 20px;
-  color: #022a3a;
-  padding-bottom: 8px;
+.pg-subheading {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .name {

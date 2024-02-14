@@ -21,56 +21,63 @@ const Nav = () => {
                 <li>
                     <Link to="/contact" className='navlink'>
                         Contact</Link>
-
-                    <Menu>
-                        <MenuButton className='navbutton'>
-                            Information<ChevronDownIcon />
-                        </MenuButton>
-
-                        <MenuList>
-
-                            <MenuItem>
-                                <Link to="/benefits" className='navlink'>
-                                    Benefits</Link>
-                            </MenuItem>
-
-                            <MenuItem>
-                                <Link to="/process" className='navlink'>
-                                    Process of Enlisting</Link>
-                            </MenuItem>
-
-                            <MenuItem>
-                                <Link to="/resources" className='navlink'>Resources</Link>
-                            </MenuItem>
-
-                        </MenuList>
-                    </Menu>
-
-                    <Menu>
-                        <MenuButton
-                            rightIcon={<ChevronDownIcon />}>
-                                Learn More<ChevronDownIcon />
-                        </MenuButton>
-
-                        <MenuList>
-
-                            <MenuItem>
-                                <Link to="/survey" className='navlink'>
-                                    Interest Survey</Link>
-                            </MenuItem>
-
-                            <MenuItem>
-                                <Link to="/appt" className='navlink'>
-                                    Schedule an Appointment</Link>
-                            </MenuItem>
-
-                        </MenuList>
-                    </Menu>
-
                 </li>
             </ul>
+            {/* <li> */}
+            <Menu>
+                <MenuButton className='menu-btn'>
+                    <p className='navlink'>
+                        Information<ChevronDownIcon />
+                    </p>
+                </MenuButton>
 
-        </nav>
+                <MenuList>
+
+                    <MenuItem>
+                        <Link to="/benefits" className='dropdown-navlink'>
+                            Benefits</Link>
+                    </MenuItem>
+
+                    <MenuItem>
+                        <Link to="/process" className='dropdown-navlink'>
+                            Process of Enlisting</Link>
+                    </MenuItem>
+
+                    <MenuItem>
+                        <Link to="/resources" className='dropdown-navlink'>Resources</Link>
+                    </MenuItem>
+
+                </MenuList>
+            </Menu>
+            {/* </li> */}
+
+            {/* <li> */}
+            <Menu>
+                <MenuButton className='menu-btn'>
+                    <p className='navlink'>
+                        Learn More<ChevronDownIcon />
+                    </p>
+                </MenuButton>
+
+                <MenuList>
+
+                    <MenuItem>
+                        <Link to="/survey" className='dropdown-navlink'>
+                            Interest Survey</Link>
+                    </MenuItem>
+
+                    <MenuItem>
+                        <Link to="/appt" className='dropdown-navlink'>
+                            Schedule an Appointment</Link>
+                    </MenuItem>
+
+                </MenuList>
+            </Menu>
+
+            {/* </li> */}
+            {/* </ul> */}
+
+        </nav >
     )
 
 }

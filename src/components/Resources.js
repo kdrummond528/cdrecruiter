@@ -1,12 +1,13 @@
 import React from 'react';
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
 import { Accordion, Box, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react'
 
 const Resources = () => {
     return (
         <div>
             <p className='resources-pgheader'>Resources</p>
-
+            <p className='pg-subheading'>
+                Explore this resource library for documents, guides, and more information to help you make your decision or prepare for your life in the Navy.
+            </p>
             <Accordion allowToggle className='card'
                 marginBottom={'20%'}>
 

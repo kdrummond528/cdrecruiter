@@ -24,8 +24,8 @@ function App() {
 
         <header>
 
-          <h1>Petty Officer Drummond</h1>
-          <h2>United States Navy Talent Scout</h2>
+          <p className='pg-name'>Petty Officer Drummond</p>
+          <p className='pg-subname'>United States Navy Talent Scout</p>
           <Nav />
         </header>
 

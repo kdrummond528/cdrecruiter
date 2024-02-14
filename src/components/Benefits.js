@@ -5,9 +5,11 @@ const Benefits = () => {
     return (
         <div>
             <p className='benefits-pgheader'>Benefits</p>
-            <p>Explore the various benefits available to you by joining the Navy.</p>
-            <Accordion allowToggle className='card' 
-            marginBottom={'20%'}>
+            <p className='pg-subheading'>
+                Explore the various benefits that would become available to you by joining the United States Navy.
+            </p>
+            <Accordion allowToggle className='card'
+                marginBottom={'20%'}>
                 <AccordionItem>
                     <h2>
                         <AccordionButton>
