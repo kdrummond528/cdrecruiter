@@ -30,9 +30,15 @@ header {
   /* position: fixed; */
   width: 100%;
   top: 0;
+  height: 90px;
   /* overflow: hidden; */
   /* z-index: 1; */
   /* make it fixed to the top??? */
+}
+
+.firstclass {
+  margin-top: -99px;
+  margin-left: 94%;
 }
 
 .pg-name {

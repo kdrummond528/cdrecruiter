@@ -15,7 +15,8 @@ import Survey from './components/Survey';
 import Gallery from './components/Gallery';
 import Appt from './components/Appt';
 import BackToTopBtn from './components/BackToTopBtn';
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, Image } from '@chakra-ui/react';
+import FirstClass from './img/firstclass.png';
 
 function App() {
 
@@ -24,10 +25,13 @@ function App() {
       <div className="App">
 
         <header>
-
           <p className='pg-name'>Petty Officer Drummond</p>
           <p className='pg-subname'>United States Navy Talent Scout</p>
           <Nav />
+          <Image className='firstclass'
+            objectFit='cover'
+            maxW={{ base: '100%', sm: '50px' }}
+            src={FirstClass} alt='First Class' />
         </header>
 
         <>
