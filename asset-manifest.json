@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cdrecruiter/static/css/main.06cd5fca.css",
-    "main.js": "/cdrecruiter/static/js/main.c61db146.js",
+    "main.css": "/cdrecruiter/static/css/main.1c01f610.css",
+    "main.js": "/cdrecruiter/static/js/main.3b01c366.js",
     "static/js/592.a6476282.chunk.js": "/cdrecruiter/static/js/592.a6476282.chunk.js",
     "static/media/fleetwk.jpg": "/cdrecruiter/static/media/fleetwk.3e616644052d5ee5537c.jpg",
     "static/media/promotion.jpg": "/cdrecruiter/static/media/promotion.2d94dfb66896f790aec3.jpg",
@@ -15,12 +15,12 @@
     "static/media/Liberator-Medium.otf": "/cdrecruiter/static/media/Liberator-Medium.55cba9fc27a6ad9bf09e.otf",
     "static/media/Liberator-Light.otf": "/cdrecruiter/static/media/Liberator-Light.1011d3fe66071684b2fb.otf",
     "index.html": "/cdrecruiter/index.html",
-    "main.06cd5fca.css.map": "/cdrecruiter/static/css/main.06cd5fca.css.map",
-    "main.c61db146.js.map": "/cdrecruiter/static/js/main.c61db146.js.map",
+    "main.1c01f610.css.map": "/cdrecruiter/static/css/main.1c01f610.css.map",
+    "main.3b01c366.js.map": "/cdrecruiter/static/js/main.3b01c366.js.map",
     "592.a6476282.chunk.js.map": "/cdrecruiter/static/js/592.a6476282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06cd5fca.css",
-    "static/js/main.c61db146.js"
+    "static/css/main.1c01f610.css",
+    "static/js/main.3b01c366.js"
   ]
 }
