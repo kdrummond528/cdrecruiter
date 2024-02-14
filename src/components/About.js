@@ -7,6 +7,8 @@ import FleetWk from '../img/fleetwk.jpg';
 import Promotion from '../img/promotion.jpg';
 import OceanView from '../img/oceanview1.jpg';
 import NoruGrad from '../img/norugrad.jpg';
+// import Gallery from './Gallery';
+// import Carousel from './Carousel';
 
 const About = () => {
     return (
@@ -28,7 +30,7 @@ const About = () => {
                     <CardBody>
                         <p className='pgheader'>About Me</p>
 
-                        <Text py='2'>
+                        <Text py='2' className='text'>
                             My name is Christopher Drummond, and I am a local Acquisition Talent Scout for the United States Navy currently located in Lynnwood, Washington.
                             <br />
                             <br />
@@ -83,7 +85,7 @@ const About = () => {
 
             {/* beginning of career photo gallery */}
             <p className='pgheader'>My Career At a Glance</p>
-            <SimpleGrid columns={3} spacing={10} className='gallery'>
+            <SimpleGrid columns={3} spacing={10} className='gallery' marginBottom={'30%'}>
 
                 <Box>
                     <Card maxW='sm' className='gallery-cards'>

@@ -7,7 +7,6 @@ const Nav = () => {
     return (
         <nav className='nav'>
             <ul>
-
                 <li>
                     <Link to="/home" className='navlink'>
                         Home</Link>
@@ -23,7 +22,7 @@ const Nav = () => {
                         Contact</Link>
                 </li>
             </ul>
-            {/* <li> */}
+
             <Menu>
                 <MenuButton className='menu-btn'>
                     <p className='navlink'>

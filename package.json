@@ -12,7 +12,6 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "framer-motion": "^11.0.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.0",
     "react-collapsible": "^2.10.0",
@@ -25,7 +24,8 @@
     "survey-core": "^1.9.127",
     "survey-react": "^1.9.127",
     "survey-react-ui": "^1.9.127",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
