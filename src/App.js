@@ -1,8 +1,7 @@
 import './App.css';
 import "./components/Fonts/Liberator/Liberator-Heavy.otf";
 import { Route, Routes } from 'react-router-dom';
-// import Nav from './components/Nav';
-import SideNav from './components/SideNav';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
@@ -28,7 +27,7 @@ function App() {
 
           <p className='pg-name'>Petty Officer Drummond</p>
           <p className='pg-subname'>United States Navy Talent Scout</p>
-          <SideNav />
+          <Nav />
         </header>
 
         <>
