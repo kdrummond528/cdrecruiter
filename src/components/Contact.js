@@ -4,7 +4,7 @@ import { TbPhone } from "react-icons/tb";
 import { TbMessageCircle2 } from "react-icons/tb";
 import { MdOutlineCalendarMonth } from "react-icons/md";
 import { Link } from 'react-router-dom';
-import { Card, Heading, Stack, StackDivider, Box, Text, CardHeader, CardBody } from '@chakra-ui/react';
+import { Card, Stack, StackDivider, Box, Text, CardBody } from '@chakra-ui/react';
 
 const Contact = () => {
   return (

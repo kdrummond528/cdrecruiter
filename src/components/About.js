@@ -1,6 +1,6 @@
 import React from 'react';
 import Profilepic from '../img/profilepic.jpg';
-import { Card, CardHeader, Heading, StackDivider, Box, Image, Stack, Text, CardBody, Divider, SimpleGrid } from '@chakra-ui/react';
+import { Card, CardHeader, StackDivider, Box, Image, Stack, Text, CardBody, Divider, SimpleGrid } from '@chakra-ui/react';
 import RibPic from '../img/ribpic1.jpg';
 import EngRoom from '../img/engineroompic.jpg';
 import FleetWk from '../img/fleetwk.jpg';

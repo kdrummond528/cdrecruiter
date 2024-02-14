@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Stack, StackDivider, Box, Text, CardHeader, CardBody } from '@chakra-ui/react';
+import { Card, Stack, StackDivider, Box, Text, CardBody } from '@chakra-ui/react';
 
 const Process = () => {
     return (
