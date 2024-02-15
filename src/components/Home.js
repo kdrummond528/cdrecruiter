@@ -14,7 +14,7 @@ const Home = () => {
             >
 
                 <Image className='ntag-logo'
-                    objectFit='cover'
+                    objectFit='contain'
                     maxW={{ base: '100%', sm: '350px' }}
                     src={Ntag} alt='ntag logo' />
 

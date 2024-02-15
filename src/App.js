@@ -9,6 +9,7 @@ import Info from './components/Info';
 import Benefits from './components/Benefits';
 import Process from './components/Process';
 import About from './components/About';
+import Header from './components/Header';
 import Resources from './components/Resources';
 // import Blog from './components/Blog';
 import Survey from './components/Survey';
@@ -25,13 +26,17 @@ function App() {
       <div className="App">
 
         <header>
-          <p className='pg-name'>Petty Officer Drummond</p>
-          <p className='pg-subname'>United States Navy Talent Scout</p>
-          <Nav />
           <Image className='firstclass'
             objectFit='cover'
-            maxW={{ base: '100%', sm: '50px' }}
+            // boxSize='50px'
+            // maxW={{ base: '100%', sm: '50px' }}
             src={FirstClass} alt='First Class' />
+
+          <Nav />
+
+          <p className='pg-name'>Petty Officer Drummond</p>
+          <p className='pg-subname'>United States Navy Talent Scout</p>
+
         </header>
 
         <>
