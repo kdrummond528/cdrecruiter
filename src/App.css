@@ -149,6 +149,10 @@ header {
   margin-bottom: 80px;
 }
 
+.steps {
+  padding-bottom: 15px;
+}
+
 /* .gallery {
   padding-left: 3%;
   padding-right: 3%;
