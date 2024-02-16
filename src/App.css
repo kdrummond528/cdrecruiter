@@ -129,22 +129,35 @@ header {
   text-align: center;
 }
 
+.accomp-card {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 10px;
+}
+
+.accomp-grid {
+  padding-top: 15px;
+}
+
 .subcard {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 4%;
+  margin-bottom: 80px;
 }
 
-.gallery {
+/* .gallery {
   padding-left: 3%;
   padding-right: 3%;
   margin-bottom: 8%;
-}
+} */
 
 .gallery-card {
-  width: 280px;
-  flex-direction: column;
+  width: 250px;
+  /* flex-direction: column; */
 }
 
 .gallery-img {
@@ -169,6 +182,53 @@ header {
   text-align: center;
   padding-top: 5px;
   border-top: 1px solid #c6ccd0;
+}
+
+.gallery1 {
+  border: 1px solid #ccc;
+}
+
+.gallery1:hover {
+  border: 1px solid #777;
+}
+
+.gallery1img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery-pg {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .pgheader {
@@ -206,6 +266,17 @@ header {
 
 .text {
   text-align: center;
+  font-size: 14px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.texttolink {
+  text-align: center;
+  font-size: 14px;
+  padding: 6px;
 }
 
 .link {
@@ -277,11 +348,6 @@ footer p {
 
 @media only screen and (max-width: 700px) {
 
-  .gallery {
-    width: 100%;
-    columns: 1;
-  }
-
   .pg-name {
     font-size: 26px;
   }
@@ -290,8 +356,21 @@ footer p {
     font-size: 16px;
   }
 
-  /* .ntag-logo {
-    object-fit: cover;
-  } */
+}
 
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }

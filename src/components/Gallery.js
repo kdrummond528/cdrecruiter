@@ -17,8 +17,132 @@ const Gallery = () => {
             <p className='pg-subheading'>Some accomplishments and highlights of my career in the Navy.</p>
             <br />
 
-            <div className='gallery'>
-                {/* <Stack direction='row'> */}
+            <div className='gallery-pg'>
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='gallery1img'
+                            // boxSize='200px'
+                            // objectFit='cover'
+                            src={EngineRoom}
+                            alt='Chris Drummond'
+                        />
+                        <p class="desc">Add a description of the image here</p>
+                    </div>
+                </div>
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='gallery1img'
+                            // boxSize='200px'
+                            // objectFit='cover'
+                            src={NoruGrad}
+                            alt='Chris Drummond'
+                        />
+                        <p class="desc">Add a description of the image here</p>
+                    </div >
+                </div >
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='gallery1img'
+                            // boxSize='200px'
+                            src={Promotion}
+                            // objectFit='cover'
+                            alt='Chris Drummond' />
+                        <p class="desc">Add a description of the image here</p>
+                    </div >
+                </div >
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='gallery1img'
+                            // boxSize='200px'
+                            src={FleetWk}
+                            // objectFit='cover'
+                            alt='Chris Drummond' />
+                        <p class="desc">Add a description of the image here</p>
+                    </div >
+                </div >
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='gallery1img'
+                            // boxSize='200px'
+                            src={RibPic}
+                            // objectFit='cover'
+                            alt='Chris Drummond' />
+                        <p class="desc">Add a description of the image here</p>
+                    </div >
+                </div >
+
+            </div >
+
+            <div class="gallery-pg">
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='gallery1img'
+                            // boxSize='200px'
+                            // objectFit='cover'
+                            src={EngineRoom}
+                            alt='Chris Drummond'
+                        />
+                        <p class="desc">Add a description of the image here</p>
+                    </div>
+                </div >
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='gallery1img'
+                            // boxSize='200px'
+                            // objectFit='cover'
+                            src={NoruGrad}
+                            alt='Chris Drummond'
+                        />
+                        <p class="desc">Add a description of the image here</p>
+                    </div >
+                </div >
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='gallery1img'
+                            // boxSize='200px'
+                            src={Promotion}
+                            // objectFit='cover'
+                            alt='Chris Drummond' />
+                        <p class="desc">Add a description of the image here</p>
+                    </div >
+                </div >
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='galleryimg'
+                            // boxSize='200px'
+                            src={FleetWk}
+                            // objectFit='cover'
+                            alt='Chris Drummond' />
+                        <p class="desc">Add a description of the image here</p>
+                    </div >
+                </div >
+
+                <div class="responsive">
+                    <div class="gallery1">
+                        <Image className='galleryimg'
+                            // boxSize='200px'
+                            src={RibPic}
+                            // objectFit='cover'
+                            alt='Chris Drummond' />
+                        <p class="desc">Add a description of the image here</p>
+                    </div >
+                </div >
+
+            </div >
+
+
+            {/* <div className='gallery'>
+
+                <Stack direction='row'>
 
                 <Card className='gallery-card'>
                     <CardBody>
@@ -96,10 +220,11 @@ const Gallery = () => {
                     </CardBody>
                 </Card>
 
-                {/* </Stack> */}
+                </Stack>
 
-            </div>
-        </div>
+            </div> */}
+
+        </div >
     )
 }
 

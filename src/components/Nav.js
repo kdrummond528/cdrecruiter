@@ -30,11 +30,6 @@ const Nav = () => {
                     </MenuItem>
 
                     <MenuItem>
-                        <Link to="/gallery" className='navlink'>
-                            Gallery</Link>
-                    </MenuItem>
-
-                    <MenuItem>
                         <Link to="/contact" className='navlink'>
                             Contact</Link>
                     </MenuItem>
@@ -42,7 +37,6 @@ const Nav = () => {
                     <MenuDivider></MenuDivider>
 
                     <MenuGroup color={'black'} title='Information'>
-
                         <MenuItem>
                             <Link to="/benefits" className='navlink'>
                                 Benefits</Link>
@@ -61,7 +55,6 @@ const Nav = () => {
                     <MenuDivider></MenuDivider>
 
                     <MenuGroup color={'black'} title='Learn More'>
-
                         <MenuItem>
                             <Link to="/survey" className='navlink'>
                                 Interest Survey</Link>
@@ -71,8 +64,21 @@ const Nav = () => {
                             <Link to="/appt" className='navlink'>
                                 Schedule an Appointment</Link>
                         </MenuItem>
-
                     </MenuGroup>
+
+                    <MenuDivider></MenuDivider>
+
+                    <MenuGroup color={'black'} title='My Career at a Glance'>
+                    <MenuItem>
+                            <Link to="/accomplish" className='navlink'>
+                                Accomplishments</Link>
+                        </MenuItem>
+                        <MenuItem>
+                            <Link to="/gallery" className='navlink'>
+                                Gallery</Link>
+                        </MenuItem>
+                    </MenuGroup>
+
                 </MenuList>
             </Menu >
         </div >
