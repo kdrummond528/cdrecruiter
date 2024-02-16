@@ -9,7 +9,7 @@ import Info from './components/Info';
 import Benefits from './components/Benefits';
 import Process from './components/Process';
 import About from './components/About';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Resources from './components/Resources';
 // import Blog from './components/Blog';
 import Survey from './components/Survey';

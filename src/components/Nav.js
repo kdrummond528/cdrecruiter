@@ -30,6 +30,11 @@ const Nav = () => {
                     </MenuItem>
 
                     <MenuItem>
+                        <Link to="/gallery" className='navlink'>
+                            Gallery</Link>
+                    </MenuItem>
+
+                    <MenuItem>
                         <Link to="/contact" className='navlink'>
                             Contact</Link>
                     </MenuItem>

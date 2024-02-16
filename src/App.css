@@ -136,15 +136,39 @@ header {
   margin-bottom: 4%;
 }
 
-.gallery-cards {
+.gallery {
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 8%;
+}
+
+.gallery-card {
+  width: 280px;
+}
+
+.gallery-img {
+  border-radius: 10px;
+}
+
+.gallery-name {
+  font-family: "Medium";
+  font-size: 20px;
   text-align: center;
 }
 
-.gallery {
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 8%;
-  columns: 3;
+.gallery-text {
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.gallery-year {
+  font-family: "Light";
+  font-size: 16px;
+  text-align: center;
+  padding-top: 5px;
+  border-top: 1px solid #c6ccd0;
 }
 
 .pgheader {
@@ -172,6 +196,7 @@ header {
 .name {
   font-family: "Medium";
   font-size: 24px;
+  text-align: center;
 }
 
 .title {
