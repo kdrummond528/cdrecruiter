@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Stack, StackDivider, Box, Text, CardBody } from '@chakra-ui/react';
+import { Card, SimpleGrid, Stack, StackDivider, Box, Text, CardBody } from '@chakra-ui/react';
 import Steps from './Steps'
 
 const Process = () => {
@@ -7,49 +7,53 @@ const Process = () => {
         <div>
 
             <Card className='card' marginBottom={'8%'}>
-                {/* <CardHeader> */}
                 <p className='pgheader'>Process of Enlisting</p>
-                {/* </CardHeader> */}
 
                 <CardBody>
                     <Stack divider={<StackDivider />} spacing='4'>
-                        <Box>
-                            {/* <Text size='xs' textTransform='uppercase'
-                                className='title'>
-                                The First Steps
-                            </Text> */}
 
-                            <div className='steps'>
-                                <Steps />
-                            </div>
+                        <div className='steps'>
+                            <Steps />
+                        </div>
 
-                            <Text pt='2' fontSize='sm'>
-                                <p className='title'>
+                        <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
+                            <Card>
+                                <p className='process-title' padding='5px'>
                                     1. Initial Contact</p>
-                                <p className='left-text'>
-                                    <li><b>Phone call:</b></li>
-                                    At first contact we would discuss your background, interests, opportunities and benefits that would be available to you in the Navy, as well as well as go over any possible disqualifiers.
-                                </p>
-                                <br />
+                                <CardBody>
+                                    <p className='left-text'>
+                                        <li><b>Phone call:</b></li>
+                                        At first contact we would discuss your background, interests, opportunities and benefits that would be available to you in the Navy, as well as well as go over any possible disqualifiers.
+                                    </p>
+                                </CardBody>
+                            </Card>
 
-                                <p className='title'>
+                            <Card>
+                                <p className='process-title'>
                                     2. Initial Appointment</p>
-                                <p className='left-text'>
-                                    <li><b>In-person office visit:</b></li>
-                                    We would conduct an in-depth screening interview collecting more background and personal information, and you would take a practice Armed Services Vocational Aptitude Battery (<i>ASVAB</i>).
-                                </p>
-                                <br />
+                                <CardBody>
+                                    <p className='left-text'>
+                                        <li><b>In-person office visit:</b></li>
+                                        We would conduct an in-depth screening interview collecting more background and personal information, and you would take a practice Armed Services Vocational Aptitude Battery (<i>ASVAB</i>).
+                                    </p>
+                                </CardBody>
+                            </Card>
 
-                                <p className='title'>
+                            <Card>
+                                <p className='process-title'>
                                     3. MEPs</p>
-                                <p className='left-text'>
-                                    <li><b>Entrance testing and evaluation:</b></li>
-                                    You would take the ASVAB and receive a medical evaluation at the nearest <a className='link' href="https://www.google.com/maps/place/Seattle+MEPS/@47.5583621,-122.342933,17z/data=!3m1!4b1!4m6!3m5!1s0x549041b7a4bae249:0x8e4ed5e3d10e6dc9!8m2!3d47.5583621!4d-122.3403581!16s%2Fg%2F11b75l4rgc?entry=ttu">Military Entrance Processing Station</a> (<i>MEPS</i>) located in Seattle, Washington. Pending results, you will choose a job and take your oath.
-                                </p>
+                                <CardBody>
+                                    <p className='left-text'>
+                                        <li><b>Entrance testing and evaluation:</b></li>
+                                        You would take the ASVAB and receive a medical evaluation at the nearest <a className='link' href="https://www.google.com/maps/place/Seattle+MEPS/@47.5583621,-122.342933,17z/data=!3m1!4b1!4m6!3m5!1s0x549041b7a4bae249:0x8e4ed5e3d10e6dc9!8m2!3d47.5583621!4d-122.3403581!16s%2Fg%2F11b75l4rgc?entry=ttu">Military Entrance Processing Station</a> (<i>MEPS</i>) located in Seattle, Washington.
+                                    </p>
+                                </CardBody>
+                            </Card>
+                        </SimpleGrid>
 
-                                {/* After discussing your background, interests, as well as the opportunities and benefits that would be available to you, the next step would be to take a practice Armed Services Vocational Aptitude Battery (<i>ASVAB</i>).  Following this, we would conduct a screening interview collecting more background and personal information, and then schedule you for the ASVAB and medical evaluation at the nearest <a className='link' href="https://www.google.com/maps/place/Seattle+MEPS/@47.5583621,-122.342933,17z/data=!3m1!4b1!4m6!3m5!1s0x549041b7a4bae249:0x8e4ed5e3d10e6dc9!8m2!3d47.5583621!4d-122.3403581!16s%2Fg%2F11b75l4rgc?entry=ttu">Military Entrance Processing Station</a> (<i>MEPS</i>) located in Seattle, Washington. */}
-                            </Text>
-                        </Box>
+                        {/* After discussing your background, interests, as well as the opportunities and benefits that would be available to you, the next step would be to take a practice Armed Services Vocational Aptitude Battery (<i>ASVAB</i>).  Following this, we would conduct a screening interview collecting more background and personal information, and then schedule you for the ASVAB and medical evaluation at the nearest <a className='link' href="https://www.google.com/maps/place/Seattle+MEPS/@47.5583621,-122.342933,17z/data=!3m1!4b1!4m6!3m5!1s0x549041b7a4bae249:0x8e4ed5e3d10e6dc9!8m2!3d47.5583621!4d-122.3403581!16s%2Fg%2F11b75l4rgc?entry=ttu">Military Entrance Processing Station</a> (<i>MEPS</i>) located in Seattle, Washington. */}
+                        {/* </Text> */}
+                        {/* </Box> */}
 
                         <Box>
                             <Text size='xs' textTransform='uppercase'
@@ -61,9 +65,9 @@ const Process = () => {
                             </Text>
                         </Box>
 
-                    </Stack>
-                </CardBody>
-            </Card>
+                    </Stack >
+                </CardBody >
+            </Card >
 
             {/* <br /><br />
                     For more information regarding the MEPS process, view this handout.
@@ -79,7 +83,7 @@ const Process = () => {
                     </p>
                 </Collapsible> */}
 
-        </div>
+        </div >
     )
 }
 
