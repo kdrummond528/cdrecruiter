@@ -367,6 +367,12 @@ footer p {
     font-size: 16px;
   }
 
+  .steps {
+    overflow: hidden;
+    height: 0;
+    width: 0;
+  }
+
 }
 
 

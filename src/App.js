@@ -1,6 +1,6 @@
 import './App.css';
 import "./components/Fonts/Liberator/Liberator-Heavy.otf";
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -35,8 +35,10 @@ function App() {
 
           <Nav />
 
-          <p className='pg-name'>Petty Officer Drummond</p>
-          <p className='pg-subname'>United States Navy Talent Scout</p>
+          <Link to='/home'><p className='pg-name'>
+            Petty Officer Drummond</p></Link>
+          <Link to='/home'><p className='pg-subname'>
+            United States Navy Talent Scout</p></Link>
 
         </header>
 
