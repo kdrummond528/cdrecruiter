@@ -6,7 +6,7 @@ const Process = () => {
     return (
         <div>
 
-            <Card className='card' marginBottom={'20%'}>
+            <Card className='card' marginBottom={'8%'}>
                 {/* <CardHeader> */}
                 <p className='pgheader'>Process of Enlisting</p>
                 {/* </CardHeader> */}
