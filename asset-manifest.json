@@ -1,8 +1,15 @@
 {
   "files": {
-    "main.css": "/cdrecruiter/static/css/main.aa3504da.css",
-    "main.js": "/cdrecruiter/static/js/main.d4762cbb.js",
+    "main.css": "/cdrecruiter/static/css/main.d437959e.css",
+    "main.js": "/cdrecruiter/static/js/main.0ab82091.js",
     "static/js/592.a6476282.chunk.js": "/cdrecruiter/static/js/592.a6476282.chunk.js",
+    "static/media/WashingtonInfographics.jpg": "/cdrecruiter/static/media/WashingtonInfographics.42424bb57c0763c55bf7.jpg",
+    "static/media/BasicTrainingInfo.pdf": "/cdrecruiter/static/media/BasicTrainingInfo.5978ef00b1cc0b5d7e49.pdf",
+    "static/media/StartGuide.pdf": "/cdrecruiter/static/media/StartGuide.b6f2f65c24c014602612.pdf",
+    "static/media/EmbarkFlyer.pdf": "/cdrecruiter/static/media/EmbarkFlyer.beee4e7a075eaf8371ec.pdf",
+    "static/media/EOVFlyer.pdf": "/cdrecruiter/static/media/EOVFlyer.f4c15bde508a012a8c5d.pdf",
+    "static/media/SailorsCreed.pdf": "/cdrecruiter/static/media/SailorsCreed.d013bf41fb4df30c48cf.pdf",
+    "static/media/PRT.pdf": "/cdrecruiter/static/media/PRT.a355e8220abe4c2f68f8.pdf",
     "static/media/fleetwk.jpg": "/cdrecruiter/static/media/fleetwk.3e616644052d5ee5537c.jpg",
     "static/media/oceanview2.jpg": "/cdrecruiter/static/media/oceanview2.3425fd9692ef42573396.jpg",
     "static/media/promotion.jpg": "/cdrecruiter/static/media/promotion.2d94dfb66896f790aec3.jpg",
@@ -12,17 +19,18 @@
     "static/media/ribpic1.jpg": "/cdrecruiter/static/media/ribpic1.36f02f86fcc6fae03e08.jpg",
     "static/media/ntag_logo.PNG": "/cdrecruiter/static/media/ntag_logo.12a17229ee545f668fea.PNG",
     "static/media/norugrad.jpg": "/cdrecruiter/static/media/norugrad.62175ca065ee95b46501.jpg",
+    "static/media/FutureSailorStudyGuide.pdf": "/cdrecruiter/static/media/FutureSailorStudyGuide.c853ce8652cc37af9ee8.pdf",
     "static/media/firstclass.png": "/cdrecruiter/static/media/firstclass.93db30e2029f2871b798.png",
     "static/media/Liberator-Heavy.otf": "/cdrecruiter/static/media/Liberator-Heavy.8c9d3bf9ed1d4554a1ad.otf",
     "static/media/Liberator-Medium.otf": "/cdrecruiter/static/media/Liberator-Medium.55cba9fc27a6ad9bf09e.otf",
     "static/media/Liberator-Light.otf": "/cdrecruiter/static/media/Liberator-Light.1011d3fe66071684b2fb.otf",
     "index.html": "/cdrecruiter/index.html",
-    "main.aa3504da.css.map": "/cdrecruiter/static/css/main.aa3504da.css.map",
-    "main.d4762cbb.js.map": "/cdrecruiter/static/js/main.d4762cbb.js.map",
+    "main.d437959e.css.map": "/cdrecruiter/static/css/main.d437959e.css.map",
+    "main.0ab82091.js.map": "/cdrecruiter/static/js/main.0ab82091.js.map",
     "592.a6476282.chunk.js.map": "/cdrecruiter/static/js/592.a6476282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa3504da.css",
-    "static/js/main.d4762cbb.js"
+    "static/css/main.d437959e.css",
+    "static/js/main.0ab82091.js"
   ]
 }
