@@ -1,6 +1,8 @@
 import React from 'react';
-import { Card, SimpleGrid, Stack, StackDivider, Box, Text, CardBody } from '@chakra-ui/react';
-import Steps from './Steps'
+import { Card, SimpleGrid, Stack, StackDivider, Box, Text, CardBody, Divider } from '@chakra-ui/react';
+import Steps from './Steps';
+import Embark from './doc/Prospect/EmbarkFlyer.pdf';
+import EOV from './doc/Prospect/EOVFlyer.pdf';
 
 const Process = () => {
     return (
@@ -62,6 +64,12 @@ const Process = () => {
                             </Text>
                             <Text pt='2' fontSize='sm'>
                                 When you arrive at MEPS the first step is the aptitude testing. The ASVAB, which takes on average 3.5 hours to complete. Depending on results, the second step will consist of a medical and physical evaluation. Contingent upon any findings, after completing all necessary evaluations, the third step will be speaking with a counselor for job selection. The fourth step consists of an in-depth background screening. The final step is the oath of enlistment.
+                                <br /><br />
+                                <Divider></Divider>
+                                <br />
+                                <b>Still unsure if you want to join?</b>
+                                <br />
+                                Learn about how to participate in an <a target='_blank' className='link' href={Embark}>Embark Tour</a>, which gives you the opportunity to participate in a multi-day ship experience of Navy operations first-hand. Or learn about how to participate in a three-day <a target='_blank' className='link' href={EOV}>Educator Orientation Visit</a> (<i>EOV</i>).
                             </Text>
                         </Box>
 
