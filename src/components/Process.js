@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Card, SimpleGrid, Stack, StackDivider, Box, Text, CardBody, Divider } from '@chakra-ui/react';
 import Steps from './Steps';
 import Embark from './doc/Prospect/EmbarkFlyer.pdf';
 import EOV from './doc/Prospect/EOVFlyer.pdf';
+import WAInfo from './doc/Prospect/WashingtonInfographics.jpg';
+import Join from './doc/Prospect/HowYouCanJoin.pdf';
 
 const Process = () => {
     return (
@@ -70,6 +73,17 @@ const Process = () => {
                                 <b>Still unsure if you want to join?</b>
                                 <br />
                                 Learn about how to participate in an <a target='_blank' className='link' href={Embark}>Embark Tour</a>, which gives you the opportunity to participate in a multi-day ship experience of Navy operations first-hand. Or learn about how to participate in a three-day <a target='_blank' className='link' href={EOV}>Educator Orientation Visit</a> (<i>EOV</i>).
+
+                                <br />
+                                <a target='_blank' className='link' href={Join}>How you can join</a>
+                                <br /><br />
+
+                                {/* <a target='_blank' className='link' href={WAInfo}>Washington Infographics</a> */}
+
+                                <b>Ready for the next step?</b>
+                                <br />
+                                Fill out an <Link to='/survey' className='link'>Interest Survey</Link> and I will contact you within 1-2 business days.
+
                             </Text>
                         </Box>
 
