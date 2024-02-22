@@ -8,8 +8,7 @@ const Benefits = () => {
             <p className='pg-subheading'>
                 Explore the various benefits that would become available to you by joining the United States Navy.
             </p>
-            <Accordion allowToggle className='card'
-                marginBottom={'20%'}>
+            <Accordion allowToggle className='card'>
                 <AccordionItem>
                     <h2>
                         <AccordionButton>
@@ -71,42 +70,6 @@ const Benefits = () => {
                 </AccordionItem>
 
             </Accordion>
-
-            {/* <div className='benefits-body-div'>
-
-                <Collapsible trigger={["Medical", <IoIosArrowDown class="arrow" />]} className='collapsible'>
-                    <p>
-                        Enter medical benefits here...
-                        <br />
-                        Tricare for self and family, Medical/Dental, etc.
-                    </p>
-                </Collapsible>
-
-                <Collapsible trigger={["Education", <IoIosArrowDown class="arrow" />]} className='collapsible'>
-                    <p>
-                        Enter education benefits here...
-                        <br />
-                        TA, GI, JST, Loan Repayment
-                    </p>
-                </Collapsible>
-
-                <Collapsible trigger={["Housing", <IoIosArrowDown class="arrow" />]} className='collapsible'>
-                    <p>
-                        Enter housing benefits here...
-                        <br />
-                        VA loan, BAH, etc...
-                    </p>
-                </Collapsible>
-
-                <Collapsible trigger={["OJT", <IoIosArrowDown class="arrow" />]} className='collapsible'>
-                    <p>
-                        Enter OJT benefits here...
-                        <br />
-                        OJT, Navy Cool, Certs through Dept. of Labor, etc...
-                    </p>
-                </Collapsible>
-
-            </div> */}
 
         </div>
     )

@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div>
 
-      <Card className='card' marginBottom={'20%'}>
+      <Card className='card'>
         <p className='contact-pgheader'>Contact Me</p>
 
         <div>

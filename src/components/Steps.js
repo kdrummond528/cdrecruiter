@@ -1,5 +1,4 @@
 import React from 'react';
-// import { render } from 'react-dom';
 import { Box, Step, StepDescription, StepIcon, StepIndicator, StepNumber, StepSeparator, StepStatus, StepTitle, Stepper, useSteps } from '@chakra-ui/react'
 
 const steps = [
@@ -36,7 +35,5 @@ function Steps() {
         </Stepper>
     )
 }
-
-// render(<Steps />)
 
 export default Steps;

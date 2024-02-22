@@ -14,8 +14,7 @@ const Resources = () => {
                 Explore this resource library for documents, guides, and more information to help you make your decision and/or prepare for your life in the Navy.
             </p>
 
-            <Accordion allowToggle className='card'
-                marginBottom={'20%'}>
+            <Accordion allowToggle className='card'>
 
                 {/* Practice ASVAB */}
                 <AccordionItem>

@@ -78,7 +78,7 @@ const Gallery = () => {
 
             </div >
 
-            <div class="gallery-pg">
+            {/* <div class="gallery-pg">
 
                 <div class="responsive">
                     <div class="gallery1">
@@ -137,7 +137,7 @@ const Gallery = () => {
                     </div >
                 </div >
 
-            </div >
+            </div > */}
 
 
             {/* <div className='gallery'>

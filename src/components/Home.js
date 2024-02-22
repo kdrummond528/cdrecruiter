@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
 
-            <Card className='card' marginBottom={'20%'}
+            <Card className='card'
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'
                 variant='outline'

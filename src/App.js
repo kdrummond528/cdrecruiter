@@ -5,7 +5,6 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import Info from './components/Info';
 import Benefits from './components/Benefits';
 import Process from './components/Process';
 import About from './components/About';
@@ -29,14 +28,16 @@ function App() {
         <header>
           <Image className='firstclass'
             objectFit='cover'
-            // boxSize='50px'
+            boxSize='60px'
             // maxW={{ base: '100%', sm: '50px' }}
             src={FirstClass} alt='First Class' />
 
           <Nav />
 
-          <Link to='/home'><p className='pg-name'>
-            Petty Officer Drummond</p></Link>
+          <Link to='/home'>
+            <p className='pg-name'>
+              Petty Officer Drummond</p>
+          </Link>
           <Link to='/home'><p className='pg-subname'>
             United States Navy Talent Scout</p></Link>
 
@@ -47,7 +48,6 @@ function App() {
             <Routes>
               <Route path="/home" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/info" element={<Info />} />
               <Route path="/benefits" element={<Benefits />} />
               <Route path="/process" element={<Process />} />
               <Route path="/resources" element={<Resources />} />

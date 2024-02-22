@@ -11,7 +11,7 @@ const Process = () => {
     return (
         <div>
 
-            <Card className='card' marginBottom={'8%'}>
+            <Card className='card'>
                 <p className='pgheader'>Process of Enlisting</p>
 
                 <CardBody>
@@ -88,20 +88,6 @@ const Process = () => {
                     </Stack >
                 </CardBody >
             </Card >
-
-            {/* <br /><br />
-                    For more information regarding the MEPS process, view this handout.
-                    <br />
-                    Additionally, you may also view this video detailing the process, <a href='https://www.mepcom.army.mil/Home/Applicants-and-Parents/Going-to-the-MEPS/'>A Day at the MEPS</a>. */}
-
-
-            {/* <Collapsible trigger={["Enlisted Jobs", <IoIosArrowDown class="arrow" />]} className='collapsible'>
-                    <p>
-                        Enter enlisted job rates and info...
-                        Download the <a target='_blank' href='https://www.cool.osd.mil/usn/resources_and_links/index.html?MobileApp'>Navy COOL Mobile Application</a> to view more information on enlisted job rates, <a target='_blank' href='https://www.cool.osd.mil/usn/resources_and_links/index.html?RatingInfoCards'>here's how</a>.
-
-                    </p>
-                </Collapsible> */}
 
         </div >
     )
