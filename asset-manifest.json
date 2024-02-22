@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cdrecruiter/static/css/main.530d50bc.css",
-    "main.js": "/cdrecruiter/static/js/main.2a557e13.js",
+    "main.js": "/cdrecruiter/static/js/main.9678306a.js",
     "static/js/592.a6476282.chunk.js": "/cdrecruiter/static/js/592.a6476282.chunk.js",
     "static/media/WashingtonInfographics.jpg": "/cdrecruiter/static/media/WashingtonInfographics.42424bb57c0763c55bf7.jpg",
     "static/media/BasicTrainingInfo.pdf": "/cdrecruiter/static/media/BasicTrainingInfo.5978ef00b1cc0b5d7e49.pdf",
@@ -18,20 +18,24 @@
     "static/media/engineroompic.jpg": "/cdrecruiter/static/media/engineroompic.c243a3dadab91b6061c6.jpg",
     "static/media/oceanview1.jpg": "/cdrecruiter/static/media/oceanview1.df21758c710b685e4eb1.jpg",
     "static/media/ribpic1.jpg": "/cdrecruiter/static/media/ribpic1.36f02f86fcc6fae03e08.jpg",
+    "static/media/EdforLife.pdf": "/cdrecruiter/static/media/EdforLife.3c9acc3b346639aa8667.pdf",
     "static/media/ntag_logo.PNG": "/cdrecruiter/static/media/ntag_logo.12a17229ee545f668fea.PNG",
     "static/media/norugrad.jpg": "/cdrecruiter/static/media/norugrad.62175ca065ee95b46501.jpg",
     "static/media/FutureSailorStudyGuide.pdf": "/cdrecruiter/static/media/FutureSailorStudyGuide.c853ce8652cc37af9ee8.pdf",
     "static/media/firstclass.png": "/cdrecruiter/static/media/firstclass.93db30e2029f2871b798.png",
+    "static/media/Childcare.pdf": "/cdrecruiter/static/media/Childcare.96f81066ec93ed89d8c9.pdf",
+    "static/media/GIFAQ.pdf": "/cdrecruiter/static/media/GIFAQ.da7fc12b601cec3ea6e7.pdf",
+    "static/media/ParentalLeave.pdf": "/cdrecruiter/static/media/ParentalLeave.68cb935d038c05565d70.pdf",
     "static/media/Liberator-Heavy.otf": "/cdrecruiter/static/media/Liberator-Heavy.8c9d3bf9ed1d4554a1ad.otf",
     "static/media/Liberator-Medium.otf": "/cdrecruiter/static/media/Liberator-Medium.55cba9fc27a6ad9bf09e.otf",
     "static/media/Liberator-Light.otf": "/cdrecruiter/static/media/Liberator-Light.1011d3fe66071684b2fb.otf",
     "index.html": "/cdrecruiter/index.html",
     "main.530d50bc.css.map": "/cdrecruiter/static/css/main.530d50bc.css.map",
-    "main.2a557e13.js.map": "/cdrecruiter/static/js/main.2a557e13.js.map",
+    "main.9678306a.js.map": "/cdrecruiter/static/js/main.9678306a.js.map",
     "592.a6476282.chunk.js.map": "/cdrecruiter/static/js/592.a6476282.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.530d50bc.css",
-    "static/js/main.2a557e13.js"
+    "static/js/main.9678306a.js"
   ]
 }
