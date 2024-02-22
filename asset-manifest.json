@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/cdrecruiter/static/css/main.d437959e.css",
-    "main.js": "/cdrecruiter/static/js/main.0ab82091.js",
+    "main.css": "/cdrecruiter/static/css/main.b0bd02dd.css",
+    "main.js": "/cdrecruiter/static/js/main.00bcfaa1.js",
     "static/js/592.a6476282.chunk.js": "/cdrecruiter/static/js/592.a6476282.chunk.js",
     "static/media/WashingtonInfographics.jpg": "/cdrecruiter/static/media/WashingtonInfographics.42424bb57c0763c55bf7.jpg",
     "static/media/BasicTrainingInfo.pdf": "/cdrecruiter/static/media/BasicTrainingInfo.5978ef00b1cc0b5d7e49.pdf",
     "static/media/StartGuide.pdf": "/cdrecruiter/static/media/StartGuide.b6f2f65c24c014602612.pdf",
     "static/media/EmbarkFlyer.pdf": "/cdrecruiter/static/media/EmbarkFlyer.beee4e7a075eaf8371ec.pdf",
     "static/media/EOVFlyer.pdf": "/cdrecruiter/static/media/EOVFlyer.f4c15bde508a012a8c5d.pdf",
+    "static/media/HowYouCanJoin.pdf": "/cdrecruiter/static/media/HowYouCanJoin.cfc5140b47ad396a8ffe.pdf",
     "static/media/SailorsCreed.pdf": "/cdrecruiter/static/media/SailorsCreed.d013bf41fb4df30c48cf.pdf",
     "static/media/PRT.pdf": "/cdrecruiter/static/media/PRT.a355e8220abe4c2f68f8.pdf",
     "static/media/fleetwk.jpg": "/cdrecruiter/static/media/fleetwk.3e616644052d5ee5537c.jpg",
@@ -25,12 +26,12 @@
     "static/media/Liberator-Medium.otf": "/cdrecruiter/static/media/Liberator-Medium.55cba9fc27a6ad9bf09e.otf",
     "static/media/Liberator-Light.otf": "/cdrecruiter/static/media/Liberator-Light.1011d3fe66071684b2fb.otf",
     "index.html": "/cdrecruiter/index.html",
-    "main.d437959e.css.map": "/cdrecruiter/static/css/main.d437959e.css.map",
-    "main.0ab82091.js.map": "/cdrecruiter/static/js/main.0ab82091.js.map",
+    "main.b0bd02dd.css.map": "/cdrecruiter/static/css/main.b0bd02dd.css.map",
+    "main.00bcfaa1.js.map": "/cdrecruiter/static/js/main.00bcfaa1.js.map",
     "592.a6476282.chunk.js.map": "/cdrecruiter/static/js/592.a6476282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d437959e.css",
-    "static/js/main.0ab82091.js"
+    "static/css/main.b0bd02dd.css",
+    "static/js/main.00bcfaa1.js"
   ]
 }
