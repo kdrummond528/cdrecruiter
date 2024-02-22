@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, SimpleGrid, Stack, StackDivider, Box, Text, CardBody, Divider } from '@chakra-ui/react';
+import { Card, CardHeader, Heading, SimpleGrid, Stack, StackDivider, Box, Text, CardBody, Divider } from '@chakra-ui/react';
 import Steps from './Steps';
 import Embark from './doc/Prospect/EmbarkFlyer.pdf';
 import EOV from './doc/Prospect/EOVFlyer.pdf';
@@ -56,33 +56,31 @@ const Process = () => {
                             </Card>
                         </SimpleGrid>
 
-                        {/* After discussing your background, interests, as well as the opportunities and benefits that would be available to you, the next step would be to take a practice Armed Services Vocational Aptitude Battery (<i>ASVAB</i>).  Following this, we would conduct a screening interview collecting more background and personal information, and then schedule you for the ASVAB and medical evaluation at the nearest <a className='link' href="https://www.google.com/maps/place/Seattle+MEPS/@47.5583621,-122.342933,17z/data=!3m1!4b1!4m6!3m5!1s0x549041b7a4bae249:0x8e4ed5e3d10e6dc9!8m2!3d47.5583621!4d-122.3403581!16s%2Fg%2F11b75l4rgc?entry=ttu">Military Entrance Processing Station</a> (<i>MEPS</i>) located in Seattle, Washington. */}
-                        {/* </Text> */}
-                        {/* </Box> */}
-
                         <Box>
+                            {/* What to expect at meps p */}
                             <Text size='xs' textTransform='uppercase'
                                 className='title'>
                                 What to Expect at MEPS
                             </Text>
                             <Text pt='2' fontSize='sm'>
                                 When you arrive at MEPS the first step is the aptitude testing. The ASVAB, which takes on average 3.5 hours to complete. Depending on results, the second step will consist of a medical and physical evaluation. Contingent upon any findings, after completing all necessary evaluations, the third step will be speaking with a counselor for job selection. The fourth step consists of an in-depth background screening. The final step is the oath of enlistment.
-                                <br /><br />
-                                <Divider></Divider>
-                                <br />
+                            </Text>
+                            <br /><br />
+
+                            <Divider></Divider>
+                            <br />
+
+                            <Text pt='2' fontSize='sm'>
                                 <b>Still unsure if you want to join?</b>
                                 <br />
-                                Learn about how to participate in an <a target='_blank' className='link' href={Embark}>Embark Tour</a>, which gives you the opportunity to participate in a multi-day ship experience of Navy operations first-hand. Or learn about how to participate in a three-day <a target='_blank' className='link' href={EOV}>Educator Orientation Visit</a> (<i>EOV</i>).
-
-                                <br />
-                                <a target='_blank' className='link' href={Join}>How you can join</a>
+                                Learn about how to participate in an <a target='_blank' className='link' href={Embark}>Embark Tour</a>, which gives you the opportunity to participate in a multi-day ship experience of Navy operations first-hand. Or learn about how to participate in a three-day <a target='_blank' className='link' href={EOV}>Educator Orientation Visit</a> (<i>EOV</i>). For more information, review the <a target='_blank' className='link' href={Join}>How You Can Join</a> guide.
                                 <br /><br />
 
                                 {/* <a target='_blank' className='link' href={WAInfo}>Washington Infographics</a> */}
-
                                 <b>Ready for the next step?</b>
                                 <br />
-                                Fill out an <Link to='/survey' className='link'>Interest Survey</Link> and I will contact you within 1-2 business days.
+                                Fill out an <Link to='/survey' className='link'>Interest Survey</Link> and I will contact you within 1-2 business days, or
+                                set up an introductory phone call with me via <a title='Book an appointment.' className='link' target="_blank" rel="noreferrer" href="https://calendar.app.google/M3dqL4s62eQPidVL7">Google Calendar</a>.
 
                             </Text>
                         </Box>
