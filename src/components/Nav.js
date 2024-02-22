@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, MenuButton, MenuList, MenuItem, MenuGroup, MenuDivider, IconButton } from '@chakra-ui/react';
-// import { HamburgerIcon, ChevronDownIcon } from '@chakra-ui/icons';
 import { RxHamburgerMenu } from "react-icons/rx";
 
 
@@ -13,7 +12,7 @@ const Nav = () => {
                 <MenuButton className='menu-btn'
                     as={IconButton}
                     aria-label='Options'
-                    icon={<RxHamburgerMenu size={'2rem'} />}
+                    icon={<RxHamburgerMenu className='menu-icon-btn' size={'2rem'} />}
                     variant='outline #022a3a'
                 />
 

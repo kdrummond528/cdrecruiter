@@ -26,20 +26,22 @@ function App() {
       <div className="App">
 
         <header>
-          <Image className='firstclass'
-            objectFit='cover'
-            boxSize='60px'
-            // maxW={{ base: '100%', sm: '50px' }}
-            src={FirstClass} alt='First Class' />
-
           <Nav />
 
-          <Link to='/home'>
-            <p className='pg-name'>
-              Petty Officer Drummond</p>
-          </Link>
-          <Link to='/home'><p className='pg-subname'>
-            United States Navy Talent Scout</p></Link>
+          <div className='header-title'>
+            <Link to='/home'>
+              <p className='pg-name'>
+                Petty Officer Drummond
+                <Image className='firstclass'
+                  objectFit='cover'
+                  // boxSize='60px'
+                  // maxW={{ base: '100%', sm: '50px' }}
+                  src={FirstClass} alt='First Class' />
+              </p>
+              <p className='pg-subname'>
+                United States Navy Talent Scout</p>
+            </Link>
+          </div>
 
         </header>
 
