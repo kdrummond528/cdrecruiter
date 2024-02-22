@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cdrecruiter/home/static/css/main.c5992e67.css",
-    "main.js": "/cdrecruiter/home/static/js/main.ddab1716.js",
+    "main.css": "/cdrecruiter/home/static/css/main.9fd85bec.css",
+    "main.js": "/cdrecruiter/home/static/js/main.059f503d.js",
     "static/js/592.a6476282.chunk.js": "/cdrecruiter/home/static/js/592.a6476282.chunk.js",
     "static/media/WashingtonInfographics.jpg": "/cdrecruiter/home/static/media/WashingtonInfographics.42424bb57c0763c55bf7.jpg",
     "static/media/BasicTrainingInfo.pdf": "/cdrecruiter/home/static/media/BasicTrainingInfo.5978ef00b1cc0b5d7e49.pdf",
@@ -26,12 +26,12 @@
     "static/media/Liberator-Medium.otf": "/cdrecruiter/home/static/media/Liberator-Medium.55cba9fc27a6ad9bf09e.otf",
     "static/media/Liberator-Light.otf": "/cdrecruiter/home/static/media/Liberator-Light.1011d3fe66071684b2fb.otf",
     "index.html": "/cdrecruiter/home/index.html",
-    "main.c5992e67.css.map": "/cdrecruiter/home/static/css/main.c5992e67.css.map",
-    "main.ddab1716.js.map": "/cdrecruiter/home/static/js/main.ddab1716.js.map",
+    "main.9fd85bec.css.map": "/cdrecruiter/home/static/css/main.9fd85bec.css.map",
+    "main.059f503d.js.map": "/cdrecruiter/home/static/js/main.059f503d.js.map",
     "592.a6476282.chunk.js.map": "/cdrecruiter/home/static/js/592.a6476282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5992e67.css",
-    "static/js/main.ddab1716.js"
+    "static/css/main.9fd85bec.css",
+    "static/js/main.059f503d.js"
   ]
 }
