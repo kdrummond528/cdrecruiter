@@ -4,6 +4,7 @@ import EdForLife from './doc/Benefits/EdforLife.pdf';
 import GI from './doc/Benefits/GIFAQ.pdf';
 import ParentalLeave from './doc/Benefits/ParentalLeave.pdf';
 import Childcare from './doc/Benefits/Childcare.pdf';
+import VALoan from './doc/Benefits/VALoan.pdf';
 
 const Benefits = () => {
     return (
@@ -86,8 +87,7 @@ const Benefits = () => {
                         </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4} textAlign='left'>
-                        Enter housing benefits here...<br />
-                        VA loan, BAH, etc...
+                        In the Navy you have the opportunity to receive the VA loan and the  Basic Housing Allowance. For more information view this <a target='_blank' className='link' href={VALoan}>VA Loan FAQ</a> sheet.
                     </AccordionPanel>
                 </AccordionItem>
 

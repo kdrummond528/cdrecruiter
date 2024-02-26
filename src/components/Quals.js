@@ -2,17 +2,17 @@ import React from 'react';
 import { Card, CardHeader, CardFooter, Button, Heading, Stack, StackDivider, Box, Text, CardBody, SimpleGrid } from '@chakra-ui/react';
 
 
-const Accomplish = () => {
+const Quals = () => {
     return (
         <div>
             <Card className='accomp-card'>
                 <p className='pgheader'>
-                    My Accomplishments as a Sailor
+                    My Qualifications as a Sailor
                 </p>
                 <p className='text'>The Navy offers multitunidous opportunities for on-the-job training, including certifications through thr Department of Labor. Here are a few of which I've obtained throughtout the years which will multiply career opportunities upon transitioning to the Civilian workforce.
                 </p>
 
-                <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))' className='accomp-grid'>
+                <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(300px, 1fr))' className='accomp-grid'>
 
                     <Card>
                         <CardHeader>
@@ -29,9 +29,6 @@ const Accomplish = () => {
                                 <li>Fire Marshall</li>
                             </Text>
                         </CardBody>
-                        {/* <CardFooter>
-                            <Button>View here</Button>
-                        </CardFooter> */}
                     </Card>
 
                     <Card>
@@ -49,12 +46,9 @@ const Accomplish = () => {
                                 <li>Fire Marshall</li>
                             </Text>
                         </CardBody>
-                        {/* <CardFooter>
-                            <Button>View here</Button>
-                        </CardFooter> */}
                     </Card>
 
-                    <Card>
+                    {/* <Card>
                         <CardHeader>
                             <Text textTransform='uppercase' className='title'>Awards
                             </Text>
@@ -68,10 +62,7 @@ const Accomplish = () => {
                                 <li>(month/year), (month/year).</li>
                             </Text>
                         </CardBody>
-                        {/* <CardFooter>
-                            <Button>View here</Button>
-                        </CardFooter> */}
-                    </Card>
+                    </Card> */}
 
                 </SimpleGrid>
             </Card>
@@ -79,4 +70,4 @@ const Accomplish = () => {
     )
 }
 
-export default Accomplish
+export default Quals;

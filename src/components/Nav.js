@@ -68,8 +68,8 @@ const Nav = () => {
 
                     <MenuGroup color={'black'} title='My Career at a Glance'>
                         <MenuItem>
-                            <Link to="/accomplish" className='navlink'>
-                                Accomplishments</Link>
+                            <Link to="/quals" className='navlink'>
+                                Qualifications</Link>
                         </MenuItem>
                         <MenuItem>
                             <Link to="/gallery" className='navlink'>

@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div>
-
             <Card className='card'
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'

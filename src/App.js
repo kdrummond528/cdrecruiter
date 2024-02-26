@@ -8,8 +8,7 @@ import Contact from './components/Contact';
 import Benefits from './components/Benefits';
 import Process from './components/Process';
 import About from './components/About';
-// import Header from './components/Header';
-import Accomplish from './components/Accomplish';
+import Quals from './components/Quals';
 import Resources from './components/Resources';
 // import Blog from './components/Blog';
 import Survey from './components/Survey';
@@ -24,7 +23,6 @@ function App() {
   return (
     <ChakraProvider>
       <div className="App">
-
         <header>
           <Nav />
 
@@ -57,7 +55,7 @@ function App() {
               <Route path="/survey" element={<Survey />} />
               <Route path="/appt" element={<Appt />} />
               <Route path="/gallery" element={<Gallery />} />
-              <Route path="/accomplish" element={<Accomplish />} />
+              <Route path="/quals" element={<Quals />} />
               {/* <Route path="/blog" element={<Blog />} /> */}
             </Routes>
           </div>
