@@ -16,6 +16,20 @@ import Soq from '../img/soq.jpg';
 import Sunset from '../img/sunset.jpg';
 
 const Gallery = () => {
+
+    // const toggleFullScreen = () => {
+    //     const element = document.getElementById('gallery-img');
+
+    //     const isFullScreen = document.fullscreenElement;
+
+    //     if (isFullScreen) {
+    //         document.exitFullscreen();
+    //     } else {
+    //         element.requestFullscreen();
+    //     }
+    // };
+
+
     return (
         <div>
 
@@ -28,6 +42,8 @@ const Gallery = () => {
                 {/* boat ops */}
                 <Card>
                     <Image
+                        // onClick={toggleFullScreen}
+                        // id='gallery-img'
                         className='galleryimg'
                         boxSize='200px'
                         objectFit='cover'
@@ -256,7 +272,6 @@ const Gallery = () => {
                     </Text>
                 </Card >
 
-                {/* 
                 <Card>
                     <Image
                         className='galleryimg'
@@ -369,7 +384,7 @@ const Gallery = () => {
                     <Text className='gallery-year'>
                         20--
                     </Text>
-                </Card > */}
+                </Card >
 
             </Stack >
 
