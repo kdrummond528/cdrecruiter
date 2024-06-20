@@ -17,20 +17,29 @@ const Nav = () => {
                 />
 
                 <MenuList>
-                    <MenuItem>
-                        <Link to="/home" className='navlink'>
-                            Home</Link>
-                    </MenuItem>
+                    <MenuGroup color={'black'} title='Navigation'>
 
-                    <MenuItem>
-                        <Link to="/about" className='navlink'>
-                            About</Link>
-                    </MenuItem>
+                        <MenuItem>
+                            <Link to="/home" className='navlink'>
+                                Home</Link>
+                        </MenuItem>
 
-                    <MenuItem>
-                        <Link to="/contact" className='navlink'>
-                            Contact</Link>
-                    </MenuItem>
+                        <MenuItem>
+                            <Link to="/about" className='navlink'>
+                                About Me</Link>
+                        </MenuItem>
+
+                        <MenuItem>
+                            <Link to="/contact" className='navlink'>
+                                Contact</Link>
+                        </MenuItem>
+
+                        <MenuItem>
+                            <Link to="/gallery" className='navlink'>
+                                Gallery</Link>
+                        </MenuItem>
+
+                    </MenuGroup>
 
                     <MenuDivider></MenuDivider>
 
@@ -64,18 +73,18 @@ const Nav = () => {
                         </MenuItem>
                     </MenuGroup>
 
-                    <MenuDivider></MenuDivider>
+                    {/* <MenuDivider></MenuDivider> */}
 
-                    <MenuGroup color={'black'} title='My Career at a Glance'>
-                        <MenuItem>
+                    {/* <MenuGroup color={'black'} title='My Career at a Glance'> */}
+                    {/* <MenuItem>
                             <Link to="/quals" className='navlink'>
                                 Qualifications</Link>
-                        </MenuItem>
-                        <MenuItem>
-                            <Link to="/gallery" className='navlink'>
-                                Gallery</Link>
-                        </MenuItem>
-                    </MenuGroup>
+                        </MenuItem> */}
+                    {/* <MenuItem>
+                        <Link to="/gallery" className='navlink'>
+                            Gallery</Link>
+                    </MenuItem> */}
+                    {/* </MenuGroup> */}
 
                 </MenuList>
             </Menu >

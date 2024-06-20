@@ -11,10 +11,10 @@ const Contact = () => {
     <div>
 
       <Card className='card'>
+
         <p className='contact-pgheader'>Contact Me</p>
 
         <div>
-
           <a href="mailto: christopher.e.drummond2.mil@us.navy.mil"
             title='Email me.'>
             <MdOutlineMail className='icon' size={'3.5rem'} />

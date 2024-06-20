@@ -314,9 +314,18 @@ footer p {
   font-family: "Light";
 }
 
-.footer-icon {
+.ig-icon {
+  margin-bottom: -31px;
+  margin-left: 93%;
+}
+
+.linkedin-icon {
   margin-bottom: -25px;
   margin-left: 97%;
+}
+
+footer a:hover {
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 700px) {
