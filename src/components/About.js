@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Profilepic from '../img/profilepic.jpg';
 import { Card, CardHeader, StackDivider, Box, Image, Stack, Text, CardBody, Divider, SimpleGrid, CardFooter } from '@chakra-ui/react';
+import Gallery from './Gallery';
 
 const About = () => {
     return (
-        <div>
+        <div className='pgcard'>
 
             <Card className='card'
                 direction={{ base: 'column', sm: 'row' }}
@@ -28,7 +29,7 @@ const About = () => {
                             My name is Christopher Drummond, and I am a local Acquisition Talent Scout for the United States Navy currently located in Lynnwood, Washington.
                             I have been in the Navy since 2012, and served on Expeditionary and Ships as well as Reserve Duty.
                             <br /><br />
-                            I would love to share my experiences with you, get to know you and your goals, answer your questions, and discuss the various opportunities that are available to you by joining the Navy.
+                            I would love to share my personal experiences with you, get to know you and your goals, answer your questions, and discuss the various opportunities that are available to you by joining the Navy.
                         </Text>
                         <br />
                         <Divider />
@@ -110,6 +111,9 @@ const About = () => {
             {/* <p className='texttolink'>Check out my <Link className='link' to='/gallery'>
                 Career at a Glance Gallery</Link> and <Link className='link' to='/accomplish'>Accomplishments</Link> while in the Navy.
             </p> */}
+
+
+            <Gallery/>
 
         </div >
     )

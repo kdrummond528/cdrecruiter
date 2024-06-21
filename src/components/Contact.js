@@ -3,8 +3,11 @@ import { MdOutlineMail } from 'react-icons/md';
 import { TbPhone } from "react-icons/tb";
 import { TbMessageCircle2 } from "react-icons/tb";
 import { MdOutlineCalendarMonth } from "react-icons/md";
+import { SlSocialLinkedin } from "react-icons/sl";
+import { GrInstagram } from "react-icons/gr";
 import { Link } from 'react-router-dom';
 import { Card, Stack, StackDivider, Box, Text, CardBody } from '@chakra-ui/react';
+// import IGpost from './IGpost';
 
 const Contact = () => {
   return (
@@ -33,6 +36,10 @@ const Contact = () => {
           <a target="_blank" rel="noreferrer" href="https://calendar.app.google/M3dqL4s62eQPidVL7"
             title='Book an appointment with me.'>
             <MdOutlineCalendarMonth className='icon' size={'3.5rem'} />
+          </a>
+
+          <a target='_blank' rel="noreferrer" href='https://www.instagram.com/nrslynnwood?igsh=MTJ1OTB4Z3RpZ3N5bw==' title='Check out our Instagram.'>
+            <GrInstagram className='icon' size={'3.2rem'} />
           </a>
 
           <p className='name'>Christopher Drummond</p>
@@ -69,7 +76,10 @@ const Contact = () => {
               </Text>
             </Box>
 
+            {/* <IGpost /> */}
+
           </Stack>
+
         </CardBody>
       </Card>
 

@@ -33,12 +33,12 @@ header {
   font-size: 16px;
   color: #e8b00f;
   padding-top: 20px;
-  /* position: sticky; */
+  position: fixed;
   width: 100%;
   top: 0;
   height: 90px;
-  /* overflow: hidden;
-  z-index: 1; */
+  overflow: hidden;
+  z-index: 1;
 }
 
 .header-title {
@@ -89,34 +89,19 @@ header {
   list-style: none;
 }
 
-/* .navlink:hover,
-.navlink:active,
-.navlink:focus {
-  text-decoration: none;
-} */
-
-/* .dropdown-navlink {
-  text-decoration: none;
-  color: #e8b00f;
-  font-size: 19px;
-  font-family: "Medium";
-  -webkit-text-stroke-width: .9px;
-  -webkit-text-stroke-color: #022a3a;
+/* .nav {
 } */
 
 .navlink:hover {
   cursor: pointer;
 }
 
-/* .navbutton {
-  margin: 10px;
-  font-size: 19px;
-  font-family: "Medium";
-} */
-
 .ntag-logo {
   padding: 15px;
-  /* width: 250px; */
+}
+
+.pgcard {
+  margin-top: 12%
 }
 
 .card {

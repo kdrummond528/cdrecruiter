@@ -8,7 +8,7 @@ import StartGuide from './doc/FutureSailor/StartGuide.pdf';
 
 const Resources = () => {
     return (
-        <div>
+        <div className='pgcard'>
             <p className='resources-pgheader'>Resources</p>
             <p className='pg-subheading'>
                 Explore this resource library for documents, guides, and more information to help you make your decision and/or prepare for your life in the Navy.

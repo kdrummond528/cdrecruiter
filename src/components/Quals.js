@@ -4,7 +4,7 @@ import { Card, CardHeader, CardFooter, Button, Heading, Stack, StackDivider, Box
 
 const Quals = () => {
     return (
-        <div>
+        <div className='pgcard'>
             <Card className='accomp-card'>
                 <p className='pgheader'>
                     My Qualifications as a Sailor

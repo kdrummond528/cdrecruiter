@@ -6,7 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Nav = () => {
     return (
-        <div>
+        <div className='nav'>
             <Menu>
 
                 <MenuButton className='menu-btn'
@@ -26,7 +26,7 @@ const Nav = () => {
 
                         <MenuItem>
                             <Link to="/about" className='navlink'>
-                                About Me</Link>
+                                About</Link>
                         </MenuItem>
 
                         <MenuItem>
@@ -34,10 +34,10 @@ const Nav = () => {
                                 Contact</Link>
                         </MenuItem>
 
-                        <MenuItem>
+                        {/* <MenuItem>
                             <Link to="/gallery" className='navlink'>
                                 Gallery</Link>
-                        </MenuItem>
+                        </MenuItem> */}
 
                     </MenuGroup>
 
@@ -51,7 +51,7 @@ const Nav = () => {
 
                         <MenuItem>
                             <Link to="/process" className='navlink'>
-                                Enlisting Process</Link>
+                                Enlisting</Link>
                         </MenuItem>
 
                         <MenuItem>

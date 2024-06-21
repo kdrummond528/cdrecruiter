@@ -10,7 +10,7 @@ import Join from './doc/Prospect/HowYouCanJoin.pdf';
 
 const Process = () => {
     return (
-        <div>
+        <div className='pgcard'>
 
             <Card className='card'>
                 <p className='pgheader'>Process of Enlisting</p>

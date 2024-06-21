@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div>
+        <div className='pgcard'>
             <Card className='card'
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'

@@ -10,7 +10,7 @@ const Footer = () => {
 
                 <div>
                     <a target='_blank' rel="noreferrer" href='https://www.instagram.com/nrslynnwood?igsh=MTJ1OTB4Z3RpZ3N5bw==' title='Check out our Instagram.'>
-                        <div><SlSocialInstagram className='ig-icon' size={'1.7rem'} /></div>
+                        <SlSocialInstagram className='ig-icon' size={'1.7rem'} />
                     </a>
                 </div>
 

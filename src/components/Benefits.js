@@ -8,7 +8,7 @@ import VALoan from './doc/Benefits/VALoan.pdf';
 
 const Benefits = () => {
     return (
-        <div>
+        <div className='pgcard'>
             <p className='benefits-pgheader'>Benefits</p>
             <p className='pg-subheading'>
                 Explore the various benefits that would become available to you by joining the United States Navy.
