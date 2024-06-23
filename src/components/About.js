@@ -16,7 +16,7 @@ const About = () => {
             >
                 <Image
                     objectFit='cover'
-                    maxW={{ base: '100%', sm: '300px' }}
+                    maxW={{ base: '100%', sm: '400px' }}
                     src={Profilepic}
                     alt='Chris Drummond'
                 />
@@ -26,10 +26,12 @@ const About = () => {
                         <p className='pgheader'>About Me</p>
 
                         <Text py='2' className='text'>
-                            My name is Christopher Drummond, and I am a local Acquisition Talent Scout for the United States Navy currently located in Lynnwood, Washington.
-                            I have been in the Navy since 2012, and served on Expeditionary and Ships as well as Reserve Duty.
+                            What's Good!!! My name is Christopher Drummond (just Chris is cool) and I'm your favorite Recruiter's favorite Recruiter with the United States Navy. I grew up between South Jersey and Baltimore, MD but I'm currently serving the Northern Seattle area out of the Lynnwood Recruiting Station.
+                            I joined the Navy in 2012, and have served onboard Littoral Combat Ships and
+
+                            Expeditionary Forces between Active and Reserve Duty.
                             <br /><br />
-                            I would love to share my personal experiences with you, get to know you and your goals, answer your questions, and discuss the various opportunities that are available to you by joining the Navy.
+                            The Navy has been one of the biggest cheat codes in life for me offering me access to free education, training and experience. On top of that I've been able to unlock my true potential while inspiring the next generation. If you're ready to see your potential and challenge yourself with a rewarding career let's link up so I can show you how the Navy can change your life too!
                         </Text>
                         <br />
                         <Divider />
@@ -37,7 +39,7 @@ const About = () => {
                         <Box>
                             <Text size='xs' textTransform='uppercase'
                                 className='title'>
-                                Let's talk.
+                                Hit Me Up!
                             </Text>
 
                             <Text pt='2' fontSize='sm'>
@@ -52,7 +54,7 @@ const About = () => {
                             </Text>
 
                             <Text pt='2' fontSize='sm'>
-                                Fill out an <Link to='/survey' className='link'>Interest Survey</Link> and I will contact you within 1-2 business days.
+                                Fill out an <Link to='/survey' className='link'>Interest Survey</Link> and I'll shoot you a text in 1-2 business days.
                             </Text>
                         </Box>
 
@@ -113,7 +115,7 @@ const About = () => {
             </p> */}
 
 
-            <Gallery/>
+            <Gallery />
 
         </div >
     )

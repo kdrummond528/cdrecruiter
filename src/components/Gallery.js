@@ -34,7 +34,9 @@ const Gallery = () => {
         <div>
 
             <p className='pgheader'>Gallery</p>
-            <p className='pg-subheading'>Some photos of my favorite moments and highlights of my career in the Navy throughout the years.</p>
+            <p className='pg-subheading'>
+                My name rings bells through these P-ways.
+            </p>
             <br />
 
             <Stack direction='gallery'>
@@ -71,7 +73,7 @@ const Gallery = () => {
                         src={NoruGrad}
                         alt='Chris Drummond' />
                     <Text className='gallery-name'>
-                        NORU Graduation
+                        Recruiting Graduation
                     </Text>
                     <Text className='gallery-text'>
                         NAS Pensacola<br />
@@ -158,7 +160,7 @@ const Gallery = () => {
                         Boat Ops
                     </Text>
                     <Text className='gallery-text'>
-                        USS Cincinnati<br />
+                        USS Manchester<br />
                         <b>San Diego, California</b>
                     </Text>
                     <Divider />
@@ -209,7 +211,7 @@ const Gallery = () => {
                     </Text>
                 </Card >
 
-                {/* helo ops */}
+                {/* fdff */}
                 <Card>
                     <Image
                         className='galleryimg'
@@ -218,7 +220,7 @@ const Gallery = () => {
                         src={Helo}
                         alt='Chris Drummond' />
                     <Text className='gallery-name'>
-                        Helo Ops
+                        Flight Deck Firefighting
                     </Text>
                     <Text className='gallery-text'>
                         USS Cincinnati<br />
@@ -230,7 +232,7 @@ const Gallery = () => {
                     </Text>
                 </Card >
 
-                {/* soq */}
+                {/* eot */}
                 <Card>
                     <Image
                         className='galleryimg'
@@ -239,7 +241,7 @@ const Gallery = () => {
                         src={Soq}
                         alt='Chris Drummond' />
                     <Text className='gallery-name'>
-                        SOQ Award Ceremony
+                        End of Tour
                     </Text>
                     <Text className='gallery-text'>
                         USS Cincinnati<br />

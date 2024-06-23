@@ -18,6 +18,7 @@ const Nav = () => {
 
                 <MenuList>
                     <MenuGroup color={'black'} title='Navigation'>
+                        <MenuDivider></MenuDivider>
 
                         <MenuItem>
                             <Link to="/home" className='navlink'>
@@ -41,7 +42,7 @@ const Nav = () => {
 
                     </MenuGroup>
 
-                    <MenuDivider></MenuDivider>
+                    {/* <MenuDivider></MenuDivider>
 
                     <MenuGroup color={'black'} title='Information'>
                         <MenuItem>
@@ -57,7 +58,7 @@ const Nav = () => {
                         <MenuItem>
                             <Link to="/resources" className='navlink'>Resources</Link>
                         </MenuItem>
-                    </MenuGroup>
+                    </MenuGroup> */}
 
                     <MenuDivider></MenuDivider>
 

@@ -11,7 +11,7 @@ import { Card, Stack, StackDivider, Box, Text, CardBody } from '@chakra-ui/react
 
 const Contact = () => {
   return (
-    <div>
+    <div className='pgcard'>
 
       <Card className='card'>
 

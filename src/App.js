@@ -23,8 +23,7 @@ function App() {
   return (
     <ChakraProvider>
       <div className="App">
-        <header>
-          <Nav />
+        <header className='header'>
 
           <div className='header-title'>
             <Link to='/home'>
@@ -42,6 +41,8 @@ function App() {
           </div>
 
         </header>
+
+        <Nav />
 
         <>
           <div>
