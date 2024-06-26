@@ -1,7 +1,7 @@
 {
   "name": "cdr",
   "version": "0.1.0",
-  "homepage": "https://kdrummond528.github.io/cdrecruiter/",
+  "homepage": "https://www.talktodrum.com",
   "private": true,
   "dependencies": {
     "@chakra-ui/card": "^2.2.0",
