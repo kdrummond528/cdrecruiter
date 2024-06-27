@@ -13,6 +13,7 @@ import BoatPic from '../img/boatpic.jpg';
 import Aschool from '../img/aschool.jpg';
 import Fire from '../img/fire.jpg';
 import Helo from '../img/helo.jpg';
+import Firefighting from '../img/ffdrill.jpg';
 import Eot from '../img/eot.jpg';
 import Sunset from '../img/sunset.jpg';
 import BoatOps2 from '../img/boatops2.jpg';
@@ -21,6 +22,7 @@ import BoatOps4 from '../img/boatops4.jpg';
 import BoatOps5 from '../img/boatops5.jpg';
 import BoatOps6 from '../img/boatops6.jpg';
 import BoatOps7 from '../img/boatops7.png';
+import BoatOps8 from '../img/boatops8.jpg';
 import Jax from '../img/jax.jpg';
 import Jax2 from '../img/jax2.jpg';
 import Soq from '../img/soq.jpg';
@@ -28,6 +30,12 @@ import Firerange from '../img/firerange.jpg';
 import FleetWeek2 from "../img/fleetweek2.jpg";
 import Promotion2 from '../img/promotion2.jpg';
 import Security from '../img/security.jpg';
+import Fsgrad from '../img/fsgrad.jpg';
+import Fsgrad2 from '../img/fsgrad2.JPG';
+import Fsgrad3 from '../img/fsgrad3.JPG';
+import Ship from '../img/ship.jpg';
+// dont know what to post as a title for this picture or when it happened
+import JsPromotion from '../img/jspromotion.jpg';
 
 const Gallery = () => {
 
@@ -42,6 +50,69 @@ const Gallery = () => {
 
                 <CardBody>
                     <Stack direction='gallery'>
+
+                        {/* future sailor graduation */}
+                        <Card className='galleryimgcard'>
+                            <Image
+                                className='galleryimg'
+                                boxSize='200px'
+                                objectFit='cover'
+                                src={Fsgrad}
+                                alt='Chris Drummond' />
+                            <Text className='gallery-name'>
+                                Future Sailor graduation
+                            </Text>
+                            <Text className='gallery-text'>
+                                Edmonds-Woodway High School<br />
+                                <b>Edmonds, Washington</b>
+                            </Text>
+                            <Divider />
+                            <Text className='gallery-year'>
+                                2024
+                            </Text>
+                        </Card>
+
+                        {/* future sailor graduation 2 */}
+                        <Card className='galleryimgcard'>
+                            <Image
+                                className='galleryimg'
+                                boxSize='200px'
+                                objectFit='cover'
+                                src={Fsgrad2}
+                                alt='Chris Drummond' />
+                            <Text className='gallery-name'>
+                                Future Sailor graduation
+                            </Text>
+                            <Text className='gallery-text'>
+                                Meadowdale High School<br />
+                                <b>Lynnwood, Washington</b>
+                            </Text>
+                            <Divider />
+                            <Text className='gallery-year'>
+                                2024
+                            </Text>
+                        </Card>
+
+                        {/* future sailor graduation 3 */}
+                        <Card className='galleryimgcard'>
+                            <Image
+                                className='galleryimg'
+                                boxSize='200px'
+                                objectFit='cover'
+                                src={Fsgrad3}
+                                alt='Chris Drummond' />
+                            <Text className='gallery-name'>
+                                Future Sailor graduation
+                            </Text>
+                            <Text className='gallery-text'>
+                                Meadowdale High School<br />
+                                <b>Lynnwood, Washington</b>
+                            </Text>
+                            <Divider />
+                            <Text className='gallery-year'>
+                                2024
+                            </Text>
+                        </Card>
 
                         {/* noru */}
                         <Card className='galleryimgcard'>
@@ -295,6 +366,48 @@ const Gallery = () => {
                             </Text>
                         </Card >
 
+                        {/* ffdrill */}
+                        <Card className='galleryimgcard'>
+                            <Image
+                                className='galleryimg'
+                                boxSize='200px'
+                                objectFit='cover'
+                                src={Firefighting}
+                                alt='Chris Drummond' />
+                            <Text className='gallery-name'>
+                                Flight Deck Firefighting
+                            </Text>
+                            <Text className='gallery-text'>
+                                USS Cincinnati<br />
+                                <b>San Diego, California</b>
+                            </Text>
+                            <Divider />
+                            <Text className='gallery-year'>
+                                2023
+                            </Text>
+                        </Card >
+
+                        {/* boat ops 8 */}
+                        <Card className='galleryimgcard'>
+                            <Image
+                                className='galleryimg'
+                                boxSize='200px'
+                                objectFit='cover'
+                                src={BoatOps8}
+                                alt='Chris Drummond' />
+                            <Text className='gallery-name'>
+                                Boat Ops
+                            </Text>
+                            <Text className='gallery-text'>
+                                USS Cincinnati<br />
+                                <b>San Diego, California</b>
+                            </Text>
+                            <Divider />
+                            <Text className='gallery-year'>
+                                2023
+                            </Text>
+                        </Card >
+
                         {/* ocean views */}
                         <Card className='galleryimgcard'>
                             <Image
@@ -379,6 +492,26 @@ const Gallery = () => {
                             </Text>
                         </Card>
 
+                        {/* ship */}
+                        <Card className='galleryimgcard'>
+                            <Image
+                                className='galleryimg'
+                                boxSize='200px'
+                                objectFit='cover'
+                                src={Ship}
+                                alt='Chris Drummond' />
+                            <Text className='gallery-name'>
+                                Ship Views
+                            </Text>
+                            <Text className='gallery-text'>
+                                USS Cincinnati<br />
+                                <b>San Diego, California</b>
+                            </Text>
+                            <Divider />
+                            <Text className='gallery-year'>
+                                2022
+                            </Text>
+                        </Card>
                         {/* soq */}
                         <Card className='galleryimgcard'>
                             <Image
