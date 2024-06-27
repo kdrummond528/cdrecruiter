@@ -337,6 +337,10 @@ footer p {
 
 @media only screen and (max-width: 60em) {
 
+.pgcard {
+  margin-top:10%
+}
+  
   .pg-name {
     padding-top: 3px;
     font-size: 22px;
