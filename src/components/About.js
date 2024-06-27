@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Profilepic from '../img/profilepic.jpg';
-import { Card, CardHeader, StackDivider, Box, Image, Stack, Text, CardBody, Divider, SimpleGrid, CardFooter } from '@chakra-ui/react';
+import { Card, Box, Image, Stack, Text, CardBody, Divider } from '@chakra-ui/react';
 import Gallery from './Gallery';
 
 const About = () => {
@@ -35,9 +35,13 @@ const About = () => {
                             <br /><br />
                             The Navy has been one of the biggest cheat codes in life for me offering me access to free education, training and experience. On top of that I've been able to unlock my true potential while inspiring the next generation. If you're ready to see your potential and challenge yourself with a rewarding career let's link up so I can show you how the Navy can change your life too!
                         </Text>
+
                         <br />
+
                         <Divider />
+
                         <br />
+
                         <Box>
                             <Text size='xs' textTransform='uppercase'
                                 className='title'>
@@ -48,7 +52,9 @@ const About = () => {
                                 Set up an introductory phone call with me via <a title='Book an appointment.' className='link' target="_blank" rel="noreferrer" href="https://calendar.app.google/M3dqL4s62eQPidVL7">Google Calendar</a>.
                             </Text>
                         </Box>
+
                         <br />
+
                         <Box>
                             <Text size='xs' textTransform='uppercase'
                                 className='title'>
