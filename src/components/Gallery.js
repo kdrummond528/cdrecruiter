@@ -46,7 +46,7 @@ const Gallery = () => {
                 <p className='pg-subheading'>
                     My name rings bells through these P-ways.
                 </p>
-                <br />
+                {/* <br /> */}
 
                 <CardBody>
                     <Stack direction='gallery'>

@@ -21,7 +21,7 @@ const Nav = () => {
                         <MenuDivider></MenuDivider>
 
                         <MenuItem>
-                            <Link to="/home" className='navlink'>
+                            <Link to="/" className='navlink'>
                                 Home</Link>
                         </MenuItem>
 

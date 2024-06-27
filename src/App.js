@@ -1,6 +1,6 @@
 import './App.css';
 import "./components/Fonts/Liberator/Liberator-Heavy.otf";
-import { Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -17,20 +17,6 @@ import Appt from './components/Appt';
 import BackToTopBtn from './components/BackToTopBtn';
 import { ChakraProvider, Image } from '@chakra-ui/react';
 import FirstClass from './img/firstclass.png';
-// import { extendTheme } from '@chakra-ui/react'
-
-// // 2. Update the breakpoints as key-value pairs
-// const breakpoints = {
-//   base: '0px',
-//   sm: '320px',
-//   md: '768px',
-//   lg: '960px',
-//   xl: '1200px',
-//   '2xl': '1536px',
-// }
-
-// // 3. Extend the theme
-// const theme = extendTheme({ breakpoints })
 
 function App() {
 
@@ -40,7 +26,7 @@ function App() {
         <header className='header'>
 
           <div className='header-title'>
-            <Link to='/home'>
+            <Link to='/'>
               <p className='pg-name'>
                 Petty Officer Drummond
                 <Image className='firstclass'
@@ -59,21 +45,23 @@ function App() {
         <Nav />
 
         <>
-          <div className='content'>
-            <Routes>
-              <Route path="/home" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/benefits" element={<Benefits />} />
-              <Route path="/process" element={<Process />} />
-              <Route path="/resources" element={<Resources />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/survey" element={<Survey />} />
-              <Route path="/appt" element={<Appt />} />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/quals" element={<Quals />} />
-              {/* <Route path="/blog" element={<Blog />} /> */}
-            </Routes>
-          </div>
+          {/* <div className='content'> */}
+            {/* <BrowserRouter> */}
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/benefits" element={<Benefits />} />
+                <Route path="/process" element={<Process />} />
+                <Route path="/resources" element={<Resources />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/survey" element={<Survey />} />
+                <Route path="/appt" element={<Appt />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/quals" element={<Quals />} />
+                {/* <Route path="/blog" element={<Blog />} /> */}
+              </Routes>
+            {/* </BrowserRouter> */}
+          {/* </div> */}
         </>
 
         <BackToTopBtn />
