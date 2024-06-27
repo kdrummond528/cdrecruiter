@@ -28,7 +28,7 @@ const Contact = () => {
             <TbPhone className='icon' size={'3.5rem'} />
           </a>
 
-          <a href="sms:425-977-9361"
+          <a href="sms:425-977-9361?&body=Hey Chris, I'm curious about the Navy. Can you help out?"
             title='Text me.'>
             <TbMessageCircle2 className='icon' size={'3.5rem'} />
           </a>
