@@ -29,7 +29,7 @@ const Home = () => {
                             <br /><br />
                             Think of me as your guide and all things Navy connoisseur while you begin this journey to change your life and build on your future.
                             <br /><br />
-                            Use this website to get to learn a bit more about the Navy, and to contact me for more information by completing the <Link to='/survey' className='link'>interest survey</Link> and <Link to='/appt' className='link'>schedule an appointment</Link>.
+                            Not sure where to start? Complete this <Link to='/survey' className='link'>interest form</Link> or <Link to='/appt' className='link'>schedule an appointment</Link> to start a conversation.
                             <br /><br />
                             <i>"Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek."
                                 {/* — Barack Obama */}
