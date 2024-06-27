@@ -7,14 +7,15 @@ const Home = () => {
     return (
         <div className='pgcard'>
             <Card className='card'
-                direction={{ base: 'column', sm: 'row' }}
+                direction={{ base: 'column', md: 'row' }}
+                align={{ base: 'center', md: 'normal' }}
                 overflow='hidden'
                 variant='outline'
             >
 
                 <Image className='ntag-logo'
                     objectFit='contain'
-                    maxW={{ base: '100%', sm: '350px' }}
+                    maxW={{ base: '350px' }}
                     src={Ntag} alt='ntag logo' />
 
                 <Stack>

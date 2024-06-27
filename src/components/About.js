@@ -9,14 +9,16 @@ const About = () => {
         <div className='pgcard'>
 
             <Card className='card'
-                direction={{ base: 'column', sm: 'row' }}
+                direction={{ base: 'column', md: 'row' }}
                 overflow='hidden'
                 variant='outline'
+                align={{ base: 'center', md: 'normal' }}
                 marginBottom={'2%'}
             >
                 <Image
                     objectFit='cover'
-                    maxW={{ base: '100%', sm: '400px' }}
+                    maxW={{ base: '250px', md: '300px', lg: '400px' }}
+                    maxH={{ base: '500px', md: '600px', lg: '800px' }}
                     src={Profilepic}
                     alt='Chris Drummond'
                 />
