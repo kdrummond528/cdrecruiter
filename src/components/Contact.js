@@ -7,6 +7,7 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { GrInstagram } from "react-icons/gr";
 import { Link } from 'react-router-dom';
 import { Card, Stack, StackDivider, Box, Text, CardBody } from '@chakra-ui/react';
+import { Divider } from 'rsuite';
 // import IGpost from './IGpost';
 
 const Contact = () => {
@@ -54,6 +55,7 @@ const Contact = () => {
         <CardBody>
           <Stack divider={<StackDivider />} spacing='4'>
 
+            <Divider></Divider>
             <Box>
               <Text size='xs' textTransform='uppercase'
                 className='title'>
