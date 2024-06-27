@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.711e14b3.css",
-    "main.js": "/static/js/main.a0429f6b.js",
+    "main.css": "/static/css/main.51b288d9.css",
+    "main.js": "/static/js/main.b5797b63.js",
     "static/js/592.a6476282.chunk.js": "/static/js/592.a6476282.chunk.js",
     "static/media/WashingtonInfographics.jpg": "/static/media/WashingtonInfographics.42424bb57c0763c55bf7.jpg",
     "static/media/BasicTrainingInfo.pdf": "/static/media/BasicTrainingInfo.5978ef00b1cc0b5d7e49.pdf",
@@ -15,12 +15,10 @@
     "static/media/sunset.jpg": "/static/media/sunset.53a1d3d0fe4c4b0fdc1e.jpg",
     "static/media/fleetwk.jpg": "/static/media/fleetwk.3e616644052d5ee5537c.jpg",
     "static/media/soq.jpg": "/static/media/soq.6f06a4909fdc4de726da.jpg",
-    "static/media/oceanview2.jpg": "/static/media/oceanview2.3425fd9692ef42573396.jpg",
     "static/media/promotion.jpg": "/static/media/promotion.2d94dfb66896f790aec3.jpg",
     "static/media/profilepic.jpg": "/static/media/profilepic.cbec88dd51a4fdbabfc0.jpg",
     "static/media/engineroompic.jpg": "/static/media/engineroompic.c243a3dadab91b6061c6.jpg",
     "static/media/boatpic.jpg": "/static/media/boatpic.831716243e1940fda5df.jpg",
-    "static/media/oceanview1.jpg": "/static/media/oceanview1.df21758c710b685e4eb1.jpg",
     "static/media/EdforLife.pdf": "/static/media/EdforLife.3c9acc3b346639aa8667.pdf",
     "static/media/fire.jpg": "/static/media/fire.94c1469f4dfad08e3a69.jpg",
     "static/media/ntag_logo.PNG": "/static/media/ntag_logo.12a17229ee545f668fea.PNG",
@@ -37,12 +35,12 @@
     "static/media/Liberator-Medium.otf": "/static/media/Liberator-Medium.55cba9fc27a6ad9bf09e.otf",
     "static/media/Liberator-Light.otf": "/static/media/Liberator-Light.1011d3fe66071684b2fb.otf",
     "index.html": "/index.html",
-    "main.711e14b3.css.map": "/static/css/main.711e14b3.css.map",
-    "main.a0429f6b.js.map": "/static/js/main.a0429f6b.js.map",
+    "main.51b288d9.css.map": "/static/css/main.51b288d9.css.map",
+    "main.b5797b63.js.map": "/static/js/main.b5797b63.js.map",
     "592.a6476282.chunk.js.map": "/static/js/592.a6476282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.711e14b3.css",
-    "static/js/main.a0429f6b.js"
+    "static/css/main.51b288d9.css",
+    "static/js/main.b5797b63.js"
   ]
 }
