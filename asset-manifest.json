@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.711e14b3.css",
-    "main.js": "/static/js/main.861fda2f.js",
+    "main.js": "/static/js/main.b4bc7a88.js",
     "static/js/592.a6476282.chunk.js": "/static/js/592.a6476282.chunk.js",
     "static/media/WashingtonInfographics.jpg": "/static/media/WashingtonInfographics.42424bb57c0763c55bf7.jpg",
     "static/media/BasicTrainingInfo.pdf": "/static/media/BasicTrainingInfo.5978ef00b1cc0b5d7e49.pdf",
@@ -38,11 +38,11 @@
     "static/media/Liberator-Light.otf": "/static/media/Liberator-Light.1011d3fe66071684b2fb.otf",
     "index.html": "/index.html",
     "main.711e14b3.css.map": "/static/css/main.711e14b3.css.map",
-    "main.861fda2f.js.map": "/static/js/main.861fda2f.js.map",
+    "main.b4bc7a88.js.map": "/static/js/main.b4bc7a88.js.map",
     "592.a6476282.chunk.js.map": "/static/js/592.a6476282.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.711e14b3.css",
-    "static/js/main.861fda2f.js"
+    "static/js/main.b4bc7a88.js"
   ]
 }
