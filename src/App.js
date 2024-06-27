@@ -1,6 +1,6 @@
 import './App.css';
 import "./components/Fonts/Liberator/Liberator-Heavy.otf";
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -46,7 +46,6 @@ function App() {
 
         <>
           {/* <div className='content'> */}
-            {/* <BrowserRouter> */}
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
@@ -60,7 +59,6 @@ function App() {
                 <Route path="/quals" element={<Quals />} />
                 {/* <Route path="/blog" element={<Blog />} /> */}
               </Routes>
-            {/* </BrowserRouter> */}
           {/* </div> */}
         </>
 
