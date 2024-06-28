@@ -34,8 +34,9 @@ import Fsgrad from '../img/fsgrad.jpg';
 import Fsgrad2 from '../img/fsgrad2.JPG';
 import Fsgrad3 from '../img/fsgrad3.JPG';
 import Ship from '../img/ship.jpg';
+
 // dont know what to post as a title for this picture or when it happened
-import JsPromotion from '../img/jspromotion.jpg';
+// import JsPromotion from '../img/jspromotion.jpg';
 
 const Gallery = () => {
 

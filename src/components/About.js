@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Profilepic from '../img/profilepic.jpg';
-import { Card, Box, Image, Stack, Text, CardBody, Divider } from '@chakra-ui/react';
+import { Card, Box, Image, Stack, Text, CardBody, Divider, SimpleGrid, CardFooter } from '@chakra-ui/react';
 import Gallery from './Gallery';
 
 const About = () => {

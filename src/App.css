@@ -337,10 +337,16 @@ footer p {
 
 @media only screen and (max-width: 60em) {
 
-.pgcard {
-  margin-top:10%
-}
-  
+  .pgcard {
+    margin-top: 30%
+  }
+
+  .surveycard, .apptcard {
+    margin-top: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .pg-name {
     padding-top: 3px;
     font-size: 22px;
