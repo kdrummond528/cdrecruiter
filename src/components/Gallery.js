@@ -64,13 +64,13 @@ const Gallery = () => {
                                 Future Sailor graduation
                             </Text>
                             <Text className='gallery-text'>
-                                Edmonds-Woodway High School<br />
-                                <b>Edmonds, Washington</b>
+                                {/* Edmonds-Woodway High School<br /> */}
+                                {/* <b>Edmonds, Washington</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2024
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* future sailor graduation 2 */}
@@ -85,13 +85,13 @@ const Gallery = () => {
                                 Future Sailor graduation
                             </Text>
                             <Text className='gallery-text'>
-                                Meadowdale High School<br />
-                                <b>Lynnwood, Washington</b>
+                                {/* Meadowdale High School<br /> */}
+                                {/* <b>Lynnwood, Washington</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2024
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* future sailor graduation 3 */}
@@ -106,13 +106,13 @@ const Gallery = () => {
                                 Future Sailor graduation
                             </Text>
                             <Text className='gallery-text'>
-                                Meadowdale High School<br />
-                                <b>Lynnwood, Washington</b>
+                                {/* Meadowdale High School<br /> */}
+                                {/* <b>Lynnwood, Washington</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2024
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* noru */}
@@ -128,12 +128,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 NAS Pensacola<br />
-                                <b>Pensacola, Florida</b>
+                                {/* <b>Pensacola, Florida</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* noru indiv pic */}
@@ -149,12 +149,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 NAS Pensacola<br />
-                                <b>Pensacola, Florida</b>
+                                {/* <b>Pensacola, Florida</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* eot */}
@@ -170,12 +170,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops */}
@@ -191,12 +191,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* first class promotion */}
@@ -212,12 +212,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* fleet week */}
@@ -233,12 +233,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>Los Angeles, California</b>
+                                {/* <b>Los Angeles, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* fleet week 2 */}
@@ -254,12 +254,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>Los Angeles, California</b>
+                                {/* <b>Los Angeles, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops 2 */}
@@ -275,12 +275,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* fire marshall drills */}
@@ -296,12 +296,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops 6 */}
@@ -317,12 +317,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops 3 */}
@@ -338,12 +338,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* fdff */}
@@ -359,12 +359,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* ffdrill */}
@@ -380,12 +380,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops 8 */}
@@ -401,12 +401,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2023
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* ocean views */}
@@ -422,12 +422,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* engine room pic */}
@@ -443,12 +443,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* fire range */}
@@ -464,12 +464,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* security forces */}
@@ -485,12 +485,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* ship */}
@@ -506,12 +506,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card>
                         {/* soq */}
                         <Card className='galleryimgcard'>
@@ -526,12 +526,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* ocean views */}
@@ -547,12 +547,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops with flag */}
@@ -568,12 +568,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Manchester<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops 4 */}
@@ -589,12 +589,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops 5 */}
@@ -610,12 +610,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2022
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* sunset with ship in bg */}
@@ -631,12 +631,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2021
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* boat ops 7 */}
@@ -652,12 +652,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 USS Cincinnati<br />
-                                <b>San Diego, California</b>
+                                {/* <b>San Diego, California</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2021
-                            </Text>
+                            </Text> */}
                         </Card >
 
                         {/* jax */}
@@ -673,12 +673,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 NAS Jax<br />
-                                <b>Jacksonville, Florida</b>
+                                {/* <b>Jacksonville, Florida</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2018
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* jax 2 */}
@@ -694,12 +694,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 NAS Jax<br />
-                                <b>Jacksonville, Florida</b>
+                                {/* <b>Jacksonville, Florida</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2018
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* promotion 2nd class */}
@@ -715,12 +715,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 Navy Reserve Center<br />
-                                <b>Orlando, Florida</b>
+                                {/* <b>Orlando, Florida</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2015
-                            </Text>
+                            </Text> */}
                         </Card>
 
                         {/* a school */}
@@ -736,12 +736,12 @@ const Gallery = () => {
                             </Text>
                             <Text className='gallery-text'>
                                 Enginemen A School<br />
-                                <b>Chicago, Illinois</b>
+                                {/* <b>Chicago, Illinois</b> */}
                             </Text>
                             <Divider />
-                            <Text className='gallery-year'>
+                            {/* <Text className='gallery-year'>
                                 2012
-                            </Text>
+                            </Text> */}
                         </Card >
 
                     </Stack >
