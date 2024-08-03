@@ -198,7 +198,8 @@ header {
   padding-bottom: 0px;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 9%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .appt,
@@ -207,7 +208,7 @@ header {
 }
 
 .pgcard {
-  margin-top: 10%;
+  margin-top: 12%;
 }
 
 .pgheader {
@@ -338,11 +339,12 @@ footer p {
 @media only screen and (max-width: 60em) {
 
   .pgcard {
-    margin-top: 30%
+    margin-top: 20%
   }
 
-  .surveycard, .apptcard {
-    margin-top: 30%;
+  .surveycard,
+  .apptcard {
+    margin-top: 20%;
     margin-left: 5%;
     margin-right: 5%;
   }

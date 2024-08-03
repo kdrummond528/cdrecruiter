@@ -45,7 +45,6 @@ function App() {
         <Nav />
 
         <>
-          {/* <div className='content'> */}
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
@@ -57,9 +56,7 @@ function App() {
                 <Route path="/appt" element={<Appt />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/quals" element={<Quals />} />
-                {/* <Route path="/blog" element={<Blog />} /> */}
               </Routes>
-          {/* </div> */}
         </>
 
         <BackToTopBtn />

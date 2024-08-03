@@ -52,10 +52,24 @@ const Contact = () => {
 
         </div>
 
+        {/* <Divider></Divider> */}
+
+
         <CardBody>
+
           <Stack divider={<StackDivider />} spacing='4'>
 
             <Divider></Divider>
+
+            {/* <Box>
+              <Text size='xs' textTransform='uppercase' className='title'>
+                Areas I service:<br />
+              </Text>
+              <Text pt='2' fontSize='sm'>
+                98037,
+              </Text>
+            </Box> */}
+
             <Box>
               <Text size='xs' textTransform='uppercase'
                 className='title'>
@@ -83,9 +97,9 @@ const Contact = () => {
           </Stack>
 
         </CardBody>
-      </Card>
+      </Card >
 
-    </div>
+    </div >
   )
 }
 
